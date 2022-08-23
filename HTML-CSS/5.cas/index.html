@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5.cas</title>
+    <style>
+      div h3 {
+        color: blue;
+      }
+      h2 {
+        color: chocolate;
+      }
+      /* style tag sluzi da kada unesemo npr za h3,uvek ce svi h3 tagovi biti onakvi kakve odaberemo da su */
+      ol {
+        text-align: center;
+        background-color: aqua;
+        list-style-position: inside;
+        /* list style position sluze da brojevi ne budu na pocetku nego uz text ako se podesi npr na centar da budu do njih 1 2 3 brojevi */
+      }
+    </style>
+  </head>
+  <body style="background-color: green">
+    <h2 style="color: darkred; text-align: center">
+      Danas radimo CSS(Cascading style sheets)-Kaskadni stilovi
+    </h2>
+    <!-- inline nacin ima prednost u odnosu na style unutar head taga,i u odnosu na eksterne css -->
+    <h4>
+      Postoji 3 nacina da primenimo stilove na neki sadrzaj unutar naseg
+      websajta.
+    </h4>
+    <ol>
+      <li>Inline CSS. Css koji se unosi kao atribut nekog html taga</li>
+      <li>
+        Stilovi definisani unutar ,style, taga koji se nalazi u head tagu.
+      </li>
+      <li>
+        Esterni CSS.Fajl koji je formata .css i njega povezujemo sa nasim html
+        fajlom naseg web sajta
+      </li>
+    </ol>
+
+    <div>
+      <h3>Ovo je naslov velicine h3 unutar prvog kontejnera</h3>
+      <h3>Ovo je naslov velicine h3 unutar prvog kontejnera</h3>
+      <p>Paragraf unutar prvog kontejnera</p>
+    </div>
+    <h3>Ovo je naslov velicine h3 koji se nalazi posle kontejnera</h3>
+    <p>Paragraf posle prvog kontejnera</p>
+  </body>
+</html>

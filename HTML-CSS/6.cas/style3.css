@@ -1,0 +1,17 @@
+body {
+  font-size: 20px;
+}
+.main {
+  width: 500px;
+  height: 400px;
+  overflow: auto;
+  background-color: rgb(255, 255, 255);
+}
+.main p {
+  color: #8b0010;
+  text-align: center;
+}
+.main h2 {
+  background-color: yellow;
+  color: darkblue;
+}

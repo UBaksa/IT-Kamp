@@ -1,0 +1,22 @@
+h1 {
+  color: crimson;
+}
+.main h1 {
+  color: green;
+}
+/* klasi pristupamo preko .main-ovo je primer umesto main ide bilo sta unesemo u class */
+.main > p {
+  color: blue;
+}
+/* > sluzi samo za p unutar kontejnera */
+/* + predstavlja prvi element nakon diva,a ne svaki sledeci */
+div + p {
+  color: darkred;
+}
+
+#childdiv {
+  background-color: darkgoldenrod;
+  width: 500px;
+}
+/*  ako nekom html tagu dodelimo klasu i id,i primenimo stilove koji nisu isti,id ima prednost */
+/* i id-u pristupamo sa zvezdicom */

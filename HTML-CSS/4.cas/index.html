@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naslov</title>
+  </head>
+  <body>
+    <p><h1 align="center">Danas radimo forme</h1></p>
+    <!-- align se moze staviti i u h tag za naslov -->
+    <!-- primer za forme moze biti login na neki sajt,forma sluzi da se napravi mesto za login username itd.. -->
+    <form align="center" target="_blank" action="https://www.blic.rs">
+        <label for="username">Unesite vas username:</label>
+        <input required placeholder="Username" type="text" name="username" id="username"><br><br>
+        <!-- required atribut je da mora da se unese odredjeno polje -->
+        <!-- br tag je za novi red -->
+        <!-- ID tag se povezuje sa Label ,mora da budu isti -->
+<!-- label ukazuje na input koje ukazuje id koji ukazuje na username ovde -->
+        <!-- input tag ne mora da se zatvara kao i img tag -->
+        <!-- na osnovu id i name cemo da vidimo o cemu se radi,o o kojem inputu -->
+        <!-- type ukazuje npr za mail moze  -->
+        <label for="email">Unesite vas email:</label>
+        <input type="email" name="email" id="email" placeholder="unesi email" required><br><br>
+        <!-- umesto ovog labela moze da se unese tag placeholder unutar input tag-a,da pise unutar polja kao podsetnik -->
+
+
+
+        <label for="pass">Unesite lozinku</label>
+        <input type="password" name="password" id="pass" required><br><br>
+
+        <label for="birthdate">Unesite datum rodjenja</label>
+        <input type="date" name="birthdate" id="birthdate" min="1950-01-01" max="2015-01-01" ><br><br>
+        Omiljeno voce:
+        <label for="banana">Banana</label>
+        <input type="checkbox" name="banana" id="banana" ><br><br>
+        <label for="grozdje">Grozdje</label>
+        <input type="checkbox" name="grozdje" id="grozdje"><br><br>
+        <label for="kiwi">Kiwi</label>
+        <input type="checkbox" checked name="kiwi" id="kiwi"><br><br>
+        <!-- checked atribut u inputu je da kad se otvori stranica da se automatski checkira npr kiwi -->
+        <!-- checkbox type je da se checkira nesto -->
+        <!-- date type je da se unese neki datum -->
+
+
+        Pol: <br>
+        <label for="man">M</label>
+        <input type="radio" name="gender" id="man" value="man"><br><br>
+        <!-- value mora da bude isto kao i id/label atribut -->
+        <label for="women">Z</label>
+        <input type="radio" name="gender" id="women" value="women"><br><br>
+        <!-- radio type nam daje mogucnost da nam daje samo jednu mogucnost,ukoliko uzmemo jednu drugu ne mozemo da odaberemo -->
+
+
+
+        <label for="note">Napomena</label>
+         <textarea name="note" id="note" cols="10" rows="8"></textarea><br><br>
+        <!-- cols predstavlja 30 kolona,a rows 10 redova/slicno kao widht i height -->
+<label for="file">Unesite zeljenu datoteku</label>
+<input type="file" name="file" id="file"><br><br>
+
+<!-- file type je da se unese neki fajl -->
+
+<label for="phone">Unesite broj telefona</label>
+<input type="tel" name="phone" id="phone"><br><br>
+<!--  tel type je za broj telefona -->
+
+<label for="color">Unesite omiljenu boju</label>
+<input type="color" name="color" id="color"><br><br>
+
+<label for="eyeColor">Unesite boju ociju</label>
+<select name="eyeColor" id="eyeColor">
+  <option value="Zelena">Zelena</option>
+  <option value="Braon">Braon</option>
+  <option value="Plava">Plava</option>
+  <option selected value="Crna">Crna</option>
+</select><br><br>
+ <!--selected je umesto checked,da bude cekirano odnosno selektovano  -->
+ <!-- a select je kao da ima da se otvori i od ponudjenog uzima jedno,nema input nego select! -->
+ 
+
+
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <!-- reset sluzi da se sve izbrise iz forme -->
+        <!-- submit je ono dugme da se potvrdi i da kad ga kliknemo,uz action da nas odvede na neku stranicu -->
+        <!-- password atribut je da se ne vide slova kada se kuca -->
+        <label for="age">Unesite starost</label>
+        <input type="number" name="age" id="age" min="15" max="120" step="3"><br><br>
+        <!-- min i max je da se odrede granice,npr ovde kod godina -->
+        <!-- number type je kad se unose brojevi -->
+        <!-- step sluzi da se povecava za onoliko koliko unesemo(pomocu onih strelica da se povecava) -->
+
+    </form>
+    <!-- form tag za forme,a action atribut sluzi za kad se stisne submit tag da vrsi neku akciju,i vodi nas na neku stranicu -->
+    <!--  -->
+  </body>
+</html>

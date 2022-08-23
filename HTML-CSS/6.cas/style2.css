@@ -1,0 +1,30 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* zasto imaju 3 vrednosti?u slucaju da nije podrzan prvi imamo helvetica,a ukoliko nema ni on sans-serif,ovo je samo ako browser ne podrzi */
+}
+.div1 {
+  background-color: blueviolet;
+  width: 300px;
+  height: 200px;
+  /* overflow: visible;default vrednost/prelazi ispod ogranicenog */
+  overflow: hidden;
+  /* hidden je kad imamo viska teksta prelazi ispod ogranicenja da se sakrije */
+  overflow: scroll;
+  /* scroll je da korisnik scrolla  */
+  overflow: auto;
+  /* auto je da ukoliko dodje viska teksta pojavi se scroll,i auto je najbolji da se stavi!!!!!! */
+}
+.div2 {
+  background-color: darkblue;
+  width: 300px;
+  height: 250px;
+}
+.div2 p {
+  /* font-size: larger; */
+  /* font-size: 30px; */
+  text-align: justify;
+  /* justify je da poravna ceo tekst,da bude podjednak ali da ima dosta velike razmake */
+  text-align-last: center;
+  /* text align last je zadnja recenica da bude poravnata */
+  /* lorem je random tekst i unosi se koliko reci uz lore */
+}

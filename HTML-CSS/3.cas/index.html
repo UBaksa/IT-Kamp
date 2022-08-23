@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1px" align="center">
+      <!-- align je za pocioniranje da l ce pored ili na sredinu da bude,po horizontali -->
+      <tr align="center">
+        <td colspan="2">Prvi red prve dve kolone spojene</td>
+        <!-- colspan za spajanje kolona -->
+        <td>Prvi red treca kolona</td>
+      </tr>
+      <tr align="center">
+        <td>Drugi red prva kolona</td>
+        <td>Drugi red druga kolona</td>
+        <td rowspan="3" valign="bottom">
+          <!-- valign je za namestanje po horizontali,moze bottom,center itd.. -->
+          Drugi,treci i cetvrti red spojeni,treca kolona
+        </td>
+        <!-- rowspane za spajanje redova -->
+      </tr>
+      <tr align="center">
+        <td>Treci red prva kolona</td>
+        <td>Treci red druga kolona</td>
+      </tr>
+      <tr align="center">
+        <td colspan="2">Cetvrti red prva i druga kolona</td>
+      </tr>
+      <tr align="center">
+        <td>Peti red prva kolona</td>
+        <td>Peti red druga kolona</td>
+        <td>Peti red treca kolona</td>
+      </tr>
+    </table>
+    <!-- a tag nam omogucava pristup nekim sajtovima sa interneta.On funkcionise prema sledecoj sintaksi. -->
+    <p>
+      Ukoliko zelite da posetite sajt Googla to mozete uciniti pritiskom na<a
+        href="https://www.google.rs/"
+        >link sajta</a
+      >
+    </p>
+    <!-- href je link stranice koji zelimo da posetimo,tu se i unosi link -->
+    <p>
+      Ukoliko zelite da posetite sajt Arsenala,to mozete uciniti na<a
+        href="https://www.arsenal.com"
+        target="_blank"
+        >link</a
+      >
+    </p>
+    <a href="">
+      <img
+        src="http://www.zenasamja.me/zivotnistil/100/7-najslavnijih-umjetnickih-slika-svih-vremena"
+        alt="neka slika"
+    /></a>
+    <!-- target je tag koji nam otvori novi prozor kada kliknemo na link ili nesto da nas prebaci na sajt -->
+  </body>
+</html>

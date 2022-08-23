@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+/* kad hocemo da nemamo prostora izmedju diva i pocetka/vrha strancie uradicemo ovo gore */
+p {
+  text-align: justify;
+  text-align-last: center;
+  text-indent: 25px;
+  /* indent je da se uvuce text malo,kao na uvod zakljucak i razradu na pismenom */
+}
+.main {
+  /* box-shadow: -3px -3px 20px rgba(0, 0, 0, 1);,- ako zelimo da ide od desnog donjeg ka levom gornjeg ugla */
+  width: 400px;
+  height: 300px;
+  background-color: rgb(137, 137, 224);
+  border: 3px solid rgb(7, 7, 7);
+  border-radius: 10px 20px 30px 40px;
+  border-top-left-radius: 10px;
+  /* ovo je gornja leva ivica,ako cemo gore idemo top,a dole bottom i posle idemo left i right */
+  /* radius-je da zaoblimo ivice */
+  /* imamo vise vrsta bordera,solid,double,dashed-isprekidana,dotted-tackasta */
+  padding: 0px 7px 15px 0px;
+  /* margin: 30px; */
+  /* margin-top: 20px;ovo je da se odmakne odozgo */
+  /* margin-left: 40px;ovo je levo,moze desno i odozdo */
+  /* border je kao linija/nit koja ide oko div-a */
+  /* padding je razmak tekst-a/sadrazja od kocke diva */
+  /* margin je razmak koji ide okolo diva i odvaja div od ostalog sadrzaja */
+  /* margin: 10px 20px 30px 40px; */
+  /* ako cemo samo preko margin,idemo 4 vrednosti koje idu kao kazaljke na satu */
+  /* i za pading,border,margin,ide isti princip */
+  /* kad se unesu 2 vrednosti ide isto top i bottom,a druga na left i top */
+  /* kad se unesu 3 vr,edosti ide,1 je top,druga je left i right,treca bottom */
+
+  margin: 15px auto;
+  /* auto se odnosi na horizontalu,nikako na visinu i dubinu,i kada stavimo auto,on podjednako odvaja sa strana */
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px;
+  margin-left: 500px;
+  /* width: 80px; */
+  /* height: 50px; */
+  /* color: aqua; */
+  /* background-color: black; */
+}
+/* hover je kada predjemo misom  na neki tag koji unesemo,dok prelazimo na paragraf on se promeni,kada maknemo on se vrati na default */
+p:hover {
+  background-color: fuchsia;
+  color: darkviolet;
+  content: url(ovde unesemo link ili lokaciju slike u file-u);
+  /* ovo je da se ubaci slika da se promeni */
+}
+/* domaci zadatak */
+/* Odraditi karticu kao sa slike,glavna kartica da ima sirinu 400px,visinu 600px,
+Fotografija da zauzima trecinu glavnog kontejnera,naslov h1 velicine,podnaslov h3  */
