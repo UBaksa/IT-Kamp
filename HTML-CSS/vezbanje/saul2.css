@@ -6,8 +6,8 @@ body {
   display: inline-block;
   width: 300px;
   height: 700px;
-  margin-left: 30px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 30px;
   border: 3px outset rgb(102, 102, 65);
 }
 h1 {
@@ -24,4 +24,81 @@ h1 {
   font-size: 18px;
   text-align: justify;
   text-align-last: right;
+  padding: 10px;
+}
+.money:hover {
+  transition: 1s ease;
+  transform: scale(1.05);
+}
+.money img {
+  width: 300px;
+}
+img:hover {
+  content: url(./jal.jpg);
+}
+.murder {
+  display: inline-block;
+  width: 300px;
+  height: 700px;
+  margin-left: 30px;
+  margin-right: 40px;
+  border: 3px outset rgb(102, 102, 65);
+}
+.murder h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.murder h2 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+.murder p {
+  font-size: 18px;
+  text-align: justify;
+  text-align-last: right;
+  padding: 10px;
+}
+.murder:hover {
+  transition: 1s ease;
+  transform: scale(1.05);
+}
+.murder img {
+  width: 300px;
+}
+.suing {
+  display: inline-block;
+  width: 300px;
+  height: 700px;
+  margin-left: 20px;
+  margin-right: 30px;
+  border: 3px outset rgb(102, 102, 65);
+}
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.suing h2 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+.suing p {
+  font-size: 18px;
+  text-align: justify;
+  text-align-last: right;
+  padding: 10px;
+}
+.suing:hover {
+  transition: 1s ease;
+  transform: scale(1.05);
+}
+.suing img {
+  width: 300px;
+  height: 150px;
+}
+img:hover {
+  content: url(./jal.jpg);
 }
