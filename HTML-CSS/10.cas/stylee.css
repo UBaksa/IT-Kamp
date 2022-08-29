@@ -1,0 +1,26 @@
+.main {
+  margin: 20px auto;
+  width: 400px;
+  height: 500px;
+  background-color: cadetblue;
+  border: 1px;
+  text-transform: capitalize;
+  padding: 15px;
+  text-align: justify;
+}
+body {
+  font-family: "Aboreto", cursive;
+}
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+.auto {
+  padding-left: 7px;
+}
+
+#iconica {
+  font-size: 25px;
+}
+#font {
+  font-size: 25px;
+  margin: 15px;
+}
+/* #font:nth-of-type(2)  ako hocu da pristupim odredjenoj ikonici sa istim tagom*/

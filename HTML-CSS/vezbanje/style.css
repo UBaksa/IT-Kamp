@@ -1,0 +1,11 @@
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.main {
+  text-align: center;
+  margin: 50px auto;
+  border: 2px solid black;
+}
+#knjiga {
+  font-size: 15px;
+}
