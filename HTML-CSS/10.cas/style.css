@@ -1,0 +1,21 @@
+/* drugi nacin ima da unutar head taga stavi style i preko import-a unese */
+body {
+  font-family: "Kalam", cursive;
+}
+
+.main {
+  margin: 20px auto;
+  background-color: aqua;
+  height: 500px;
+  width: 400px;
+  padding: 20px;
+}
+.main h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.main p {
+  text-indent: 15px;
+  text-align: justify;
+  text-align-last: right;
+}
