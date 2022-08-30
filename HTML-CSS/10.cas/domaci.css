@@ -1,0 +1,53 @@
+body {
+  font-family: "Kalam", cursive;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.main {
+  margin: 50px auto;
+  border: 3px groove blue;
+  width: 500px;
+  height: 700px;
+  background-color: rgb(174, 105, 14);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.main img {
+  width: 500px;
+  height: 350px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.main h2 {
+  text-indent: 20px;
+  margin-bottom: 25px;
+}
+#krevet {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+#kada {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+#kuca {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+#euro {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+#mail {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+u {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
