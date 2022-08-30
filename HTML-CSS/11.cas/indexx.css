@@ -15,10 +15,24 @@
 }
 .main:nth-of-type(2) {
   background-color: pink;
-  display: none;
+  /* display: none; */
   /* display-none je da se sakrije neki kontejner */
+  /* visibility: hidden; isto da se sakrije ali kada se visibility napise ne pomera se element do njega nego ostaje mesto rezervisano za njega */
 }
 .main:nth-last-of-type(3) {
   background-color: aqua;
   padding: 20px;
+}
+.main p {
+  line-height: 25px;
+  /* ovo je za razmak kolikav da bude u nekom tekstu */
+}
+.second {
+  margin: auto;
+  color: white;
+  width: 600px;
+  height: 450px;
+  background-image: url("../vezbanje/saull.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
