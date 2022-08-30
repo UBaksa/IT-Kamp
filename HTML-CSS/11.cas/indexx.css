@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  /* stavi se zvezdica i margin 0 da nema lufta odozgo */
+}
+.main {
+  /* margin: auto; */
+  width: 200px;
+  height: 200px;
+  background-color: rgb(4, 75, 103);
+  box-sizing: border-box;
+  overflow: auto;
+  display: inline-block;
+  /* display: block; ovo je po defaultu,da se redja 1 ispod drugog */
+  /* box-sizing je da kada se stavi padding da se ne siri div vec da ostane isti i samo da se napravi pading */
+}
+.main:nth-of-type(2) {
+  background-color: pink;
+  display: none;
+  /* display-none je da se sakrije neki kontejner */
+}
+.main:nth-last-of-type(3) {
+  background-color: aqua;
+  padding: 20px;
+}
