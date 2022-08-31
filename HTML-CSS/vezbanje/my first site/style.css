@@ -5,15 +5,16 @@ body {
   background-image: url(./background.jpg);
 }
 .menu {
+  box-shadow: 5px 5px 9px black;
   box-sizing: border-box;
-  height: 100px;
+  height: 140px;
   background-color: rgb(193, 191, 188);
   border-radius: 5px;
   color: rgb(57, 56, 56);
   padding: 25px;
 }
 #upitnik {
-  text-indent: 910px;
+  text-indent: 870px;
   display: inline-block;
   font-size: 25px;
 }
@@ -21,9 +22,18 @@ span {
   font-size: 20px;
   margin-right: 25px;
 }
-#kamion{
-    text-indent 1100px
+#kamion {
+  font-size: 25px;
 }
-.menu h1 {
-  display: inline-block;
+.menu h2 {
+}
+.menu h3 {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+}
+#ruke {
+  font-size: 25px;
+}
+#phone {
+  font-size: 25px;
 }
