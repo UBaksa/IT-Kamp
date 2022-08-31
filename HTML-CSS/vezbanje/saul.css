@@ -17,6 +17,8 @@ html {
   border: 5px inset yellow;
   overflow: auto;
   border-radius: 8px;
+  background-image: url(./scalee.png);
+  background-size: cover;
 }
 .main h2 {
   text-align: center;
@@ -75,6 +77,8 @@ img:hover {
   border: 5px inset yellow;
   overflow: auto;
   border-radius: 8px;
+  background-image: url(./scalee.png);
+  background-size: cover;
 }
 .main2 img:hover {
   content: url(./interior.jpg);
@@ -111,6 +115,8 @@ img:hover {
   border: 5px inset yellow;
   overflow: auto;
   border-radius: 8px;
+  background-image: url(./scalee.png);
+  background-size: cover;
 }
 .forma:hover {
   transition: 1s ease;
