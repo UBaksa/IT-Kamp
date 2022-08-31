@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(./background.jpg);
+}
+.menu {
+  box-sizing: border-box;
+  height: 100px;
+  background-color: rgb(193, 191, 188);
+  border-radius: 5px;
+  color: rgb(57, 56, 56);
+  padding: 25px;
+}
+#upitnik {
+  text-indent: 910px;
+  display: inline-block;
+  font-size: 25px;
+}
+span {
+  font-size: 20px;
+  margin-right: 25px;
+}
+#kamion{
+    text-indent 1100px
+}
+.menu h1 {
+  display: inline-block;
+}
