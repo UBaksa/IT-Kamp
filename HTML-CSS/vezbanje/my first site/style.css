@@ -5,35 +5,44 @@ body {
   background-image: url(./background.jpg);
 }
 .menu {
-  box-shadow: 5px 5px 9px black;
+  box-shadow: 5px 5px 12px rgb(126, 125, 125);
   box-sizing: border-box;
-  height: 140px;
+  height: 165px;
   background-color: rgb(193, 191, 188);
+  background-image: url(./grey-gradient-abstract-backgrounds-free-vector.webp);
+  background-size: cover;
   border-radius: 5px;
   color: rgb(57, 56, 56);
   padding: 25px;
 }
 #upitnik {
-  text-indent: 870px;
+  text-indent: 800px;
   display: inline-block;
   font-size: 25px;
 }
 span {
+  box-sizing: border-box;
   font-size: 20px;
-  margin-right: 25px;
+  margin-right: 30px;
+  font-family: "Arima Madurai", cursive;
 }
 #kamion {
   font-size: 25px;
 }
 .menu h2 {
+  font-family: "Arima Madurai", cursive;
+  font-size: 35px;
 }
 .menu h3 {
   font-family: "Caveat", cursive;
-  font-size: 30px;
+  font-size: 25px;
 }
 #ruke {
   font-size: 25px;
 }
 #phone {
   font-size: 25px;
+}
+.mail {
+  text-indent: 500px;
 }
