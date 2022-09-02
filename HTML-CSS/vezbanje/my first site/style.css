@@ -23,6 +23,10 @@ a {
   display: inline-block;
   font-size: 25px;
 }
+#upitnik:hover {
+  transition: 1s ease;
+  transform: scale(1.2);
+}
 span {
   box-sizing: border-box;
   font-size: 20px;
@@ -31,6 +35,10 @@ span {
 }
 #kamion {
   font-size: 25px;
+}
+#kamion:hover {
+  transition: 1s ease;
+  transform: scale(1.2);
 }
 .menu h2 {
   font-family: "Arima Madurai", cursive;
@@ -42,6 +50,14 @@ span {
 }
 #ruke {
   font-size: 25px;
+}
+#ruke:hover {
+  transition: 1s ease;
+  transform: scale(1.2);
+}
+#phone:hover {
+  transition: 1s ease;
+  transform: scale(1.2);
 }
 #phone {
   font-size: 25px;
