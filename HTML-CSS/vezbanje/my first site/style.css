@@ -46,6 +46,8 @@ span {
 #phone {
   font-size: 25px;
 }
+.menu:hover {
+}
 .prvi {
   display: inline-block;
   margin: 20px 40px auto;
@@ -55,6 +57,11 @@ span {
   overflow: auto;
   text-align: justify;
   box-shadow: 5px 5px 11px aqua;
+}
+.prvi:hover {
+  transition: 1.2s ease;
+  transform: scale(1.1);
+  opacity: 1;
 }
 .prvi p {
   text-align: justify;
@@ -79,7 +86,11 @@ span {
   border: 4px inset aqua;
   overflow: auto;
   text-align: justify;
-  box-shadow: 5px 5px 11px aqua;
+  box-shadow: -5px -5px 11px aqua;
+}
+.slika:hover {
+  transition: 1.2s ease;
+  transform: scale(1.2);
 }
 .slika img {
   width: 400px;
@@ -87,14 +98,48 @@ span {
 }
 .end {
   height: 300px;
+  border-radius: 10px;
+  box-shadow: -5px -5px 12px rgb(57, 55, 55);
   background-image: url(./images.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 20px;
+  /* text-align: center; */
 }
 .end p {
+  display: inline-block;
+  font-family: "Hammersmith One", sans-serif;
   text-align: center;
+  /* padding-left: 1050px; */
+  padding-top: 20px;
   width: 350px;
-  padding-left: 50px;
-  padding-top: 50px;
+}
+.end h3 {
+  display: inline-block;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  padding-top: 20px;
+  text-align: center;
+  /* padding-left: 1050px; */
+  width: 350px;
+}
+#facebook {
+  font-size: 35px;
+  /* padding-left: 1090px; */
+  padding-top: 20px;
+}
+#youtube {
+  font-size: 35px;
+  padding-left: 5px;
+}
+#instagram {
+  font-size: 35px;
+  padding-left: 5px;
+}
+#info {
+  font-size: 35px;
+  padding-left: 5px;
+}
+.endd {
+  display: inline-block;
 }
