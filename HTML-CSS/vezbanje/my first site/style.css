@@ -54,10 +54,47 @@ span {
   border: 4px inset aqua;
   overflow: auto;
   text-align: justify;
+  box-shadow: 5px 5px 11px aqua;
 }
 .prvi p {
   text-align: justify;
-  font-family: "Arima Madurai", cursive;
+  font-family: "Libre Baskerville", serif;
   text-indent: 30px;
   color: rgb(7, 7, 7);
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.prvi img {
+  width: 400px;
+  height: 200px;
+}
+.slika {
+  display: inline-block;
+  margin: 20px 40px auto;
+  width: 400px;
+  height: 700px;
+  border: 4px inset aqua;
+  overflow: auto;
+  text-align: justify;
+  box-shadow: 5px 5px 11px aqua;
+}
+.slika img {
+  width: 400px;
+  height: 400px;
+}
+.end {
+  height: 300px;
+  background-image: url(./images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+.end p {
+  text-align: center;
+  width: 350px;
+  padding-left: 50px;
+  padding-top: 50px;
 }
