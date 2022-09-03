@@ -1,0 +1,36 @@
+.edit p {
+  box-shadow: 10px 10px 15px rgb(69, 68, 68);
+  display: inline-block;
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 10px;
+  font-size: 40px;
+  border: 4px outset white;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.edit img {
+  box-shadow: 10px 10px 15px rgb(127, 130, 130);
+  padding-bottom: 0px;
+  border: 5px inset rgb(165, 165, 171);
+  margin-top: 20px;
+  margin-left: 20px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.edit img:hover {
+  transition: 1.5s ease;
+  transform: scale(1.2);
+}
+.edit p:hover {
+  transition: 1.4s ease;
+  transform: scale(1.2, 1.4);
+  background-image: url(./Logistic-Management-Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: beige;
+}

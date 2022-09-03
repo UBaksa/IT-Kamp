@@ -5,12 +5,14 @@ body {
   background-image: url(./background.jpg);
 }
 .menu {
+  color: rgb(227, 230, 232);
   box-shadow: 5px 5px 12px rgb(126, 125, 125);
   box-sizing: border-box;
   height: 165px;
   background-color: rgb(193, 191, 188);
-  background-image: url(./photo-1611572728531-d9a60feaac62.jpg);
+  background-image: url(./3637590.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 5px;
   color: rgb(57, 56, 56);
   padding: 25px;
