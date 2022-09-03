@@ -1,0 +1,20 @@
+.user {
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px outset black;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.user img {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.user p {
+  display: inline-block;
+}
