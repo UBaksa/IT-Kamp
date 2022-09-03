@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Kalam", cursive;
+}
+.main {
+  width: 10in;
+  height: 30pc;
+  font-size: 3rem;
+  width: 600px;
+  margin: auto;
+  height: 300px;
+  background-color: aqua;
+}
+.child {
+  font-size: 2rem;
+  background-color: yellow;
+}
+/* Apsolutne velicine: */
+/* cm-centimetri(obicno ide 0.5 cm i tako jer je 1 cm mnogo) */
+/* mm-milimetri */
+/* in-inchi (1 inch =96px) */
+/* px-pikseli */
+/* pt-points(slican pikselu,veci od piksela) */
+/* pc-picas(1pc-12pt) */
+/* Relativne velicine: */
+/* em- relativan u odnosu na font size od parent elementa */
+/* rem- relativan u odnosu na font size od body - ne nasledjuje velicinu od svog roditelja */
+/* vw - viewport of widht - relativna u odnosu na sirinu ekrana */
+/* vh - viewport of height - relativna u odnosu na visinu ekrana */
+/* vmin - viewport of min - Relativna 1% u odnosu na manji deo (moze biti sirina ili visina) */
+/* vmax - viewport of max - Relativna 1% u odnosu na veci deo (moze biti sirina ili visina) */
+/* % - relativan u odnosu na parent element */

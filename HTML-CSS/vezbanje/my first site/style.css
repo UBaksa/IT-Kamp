@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-image: url(./background.jpg);
@@ -21,7 +22,8 @@ a {
   text-decoration: none;
 }
 #upitnik {
-  text-indent: 780px;
+  /* text-indent: 780px; */
+  margin-left: 780px;
   display: inline-block;
   font-size: 25px;
 }
@@ -108,7 +110,7 @@ span {
   display: inline-block;
   margin: 20px 40px auto;
   width: 400px;
-  height: 399px;
+  height: 700px;
   border: 4px inset aqua;
   /* overflow: auto; */
   text-align: justify;

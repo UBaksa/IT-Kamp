@@ -32,7 +32,9 @@
   color: white;
   width: 600px;
   height: 450px;
-  background-image: url("../vezbanje/saull.png");
+  background-image: url("../vezbanje/saull.png") url(../);
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-size: 500px; jedna vrednost predstavlja sirinu */
+  /* background-size: 500px 250px;prva vrednost predstavlja sirinu a druga visinu */
 }
