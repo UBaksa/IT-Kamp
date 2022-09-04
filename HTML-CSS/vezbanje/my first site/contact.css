@@ -1,21 +1,35 @@
-.user {
+.prvim {
   box-sizing: border-box;
-  height: 300px;
-  margin-top: 20px;
-  margin-left: 10px;
+  height: 250px;
+  border: 2px black;
+  margin-top: 10px;
+  margin-left: 5px;
   margin-right: 10px;
-  border: 2px outset black;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-.user img {
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
+.prvim img {
+  height: 250px;
+  margin-top: 10px;
+  margin-bottom: -40px;
+  padding-bottom: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-.user p {
-  display: inline-block;
+.prvim p {
+  font-family: "Tiro Kannada", serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  width: 30vw;
+  height: 100px;
+  padding-bottom: 50px;
+}
+.prvim p:hover {
+  transition: 1.2s ease;
+  transform: scale(1.2, 1.3);
 }
