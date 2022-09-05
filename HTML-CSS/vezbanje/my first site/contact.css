@@ -3,8 +3,9 @@
   height: 250px;
   border: 2px black;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -13,7 +14,7 @@
 .prvim img {
   height: 250px;
   margin-top: 10px;
-  margin-bottom: -40px;
+  margin-bottom: -35px;
   padding-bottom: 5px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -32,4 +33,15 @@
 .prvim p:hover {
   transition: 1.2s ease;
   transform: scale(1.2, 1.3);
+}
+.prvim img:hover {
+  transition: 1.2s ease;
+  transform: scale(1.1, 1.1);
+}
+.drugi {
+  margin-top: 500px;
+  width: 30vw;
+}
+.drugi img {
+  height: 300px;
 }
