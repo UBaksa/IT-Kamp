@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  margin-left: 1rem;
+  float: right;
+  width: 50vw;
+  height: 80vh;
+}
+p {
+  display: inline;
+}
+.first {
+  clear: both;
+  /* clear both sluzi kad se koristi float pa da se ne bi podvlacilo stavlja se clear both */
+  width: 500px;
+  height: 55vh;
+  background-color: rgba(70, 49, 70, 0.5);
+  float: left;
+  clear: both;
+}
+.second {
+  /* clear: both; */
+  float: right;
+  background-color: rgb(176, 176, 21);
+  width: 500px;
+  height: 75vh;
+}
