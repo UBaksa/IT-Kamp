@@ -7,3 +7,37 @@ header {
   height: 20vw;
   background-color: rgb(167, 80, 80);
 }
+img {
+  width: 10%;
+  height: 90%;
+}
+.links {
+  display: inline-block;
+  margin-left: 35rem;
+}
+.links a {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: rgb(217, 224, 224);
+  padding-right: 0.75rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.links a:visited {
+  padding: 0.5rem;
+  background-color: blue;
+  border-radius: 10px;
+  color: black;
+}
+/* visited je kad se poseti sajt da se primene tagovi */
+.links a:hover {
+  padding: 0.5rem;
+  background-color: blue;
+  border-radius: 10px;
+}
+.links a:active {
+  color: aqua;
+}
+/* active da kad se klikce u trenutku da se primene tagovi */
