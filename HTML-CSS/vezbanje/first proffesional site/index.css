@@ -38,3 +38,15 @@ header img {
   background-color: rgb(101, 150, 247);
   border-radius: 5px;
 }
+header p {
+  font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 50px;
+  padding-left: 30px;
+  letter-spacing: 5px;
+  float: left;
+}
+header:hover {
+  transform: scale(1, 1.2);
+  transition: 1.5s ease;
+}
