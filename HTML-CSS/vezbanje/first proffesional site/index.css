@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(101, 150, 247);
+}
+header {
+  background-color: white;
+  width: 100vw;
+  height: 20vh;
+}
+header img {
+  clear: both;
+  float: left;
+  width: 10vw;
+  height: 20vh;
+}
+.linkovi {
+  color: rgb(101, 150, 247);
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.25rem;
+  margin-top: 7.25rem;
+  margin-right: 3rem;
+  float: right;
+  display: inline-block;
+}
+.linkovi a {
+  color: rgb(39, 43, 43);
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.linkovi a:hover {
+  color: aqua;
+  padding: 5px;
+  background-color: rgb(101, 150, 247);
+  border-radius: 5px;
+}
