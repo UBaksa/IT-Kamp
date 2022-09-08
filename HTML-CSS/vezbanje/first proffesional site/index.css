@@ -41,7 +41,7 @@ header img {
 header p {
   font-size: 2rem;
   font-family: "Quicksand", sans-serif;
-  padding-top: 3.5rem;
+  padding-top: 3rem;
   padding-left: 1rem;
   letter-spacing: 1rem;
   float: left;
@@ -82,7 +82,8 @@ header:hover {
   opacity: 0.8;
 }
 .fact2 {
-  background-image: url(./slike/images.jpg);
+  color: black;
+  background-image: url(./slike/ethereum-cryptocurrency-technology-abstract-background-concept-light-neon-pink-blue-logo-futuristic-background-blue-3d-illustration-rendering_37129-2429.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1rem;
