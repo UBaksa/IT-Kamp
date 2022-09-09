@@ -108,3 +108,8 @@ button {
   margin-left: 5rem;
   background-color: green;
 }
+hr {
+  background-color: black;
+  width: 15rem;
+  margin-left: 4.7rem;
+}

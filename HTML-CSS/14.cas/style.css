@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.first {
+  width: 50%;
+  height: 50vh;
+  background-color: rgba(29, 29, 171, 0.5);
+}
+.second {
+  width: 50%;
+  height: 50vh;
+  background-color: rgb(100, 41, 100);
+}
+/* ako hocemo samo na fotografiju da se stavi background color ...soon */
