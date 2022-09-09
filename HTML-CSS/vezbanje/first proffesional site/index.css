@@ -7,7 +7,6 @@ body {
 }
 header {
   background-color: white;
-  width: 100vw;
   height: 20vh;
 }
 header img {
@@ -52,6 +51,19 @@ header:hover {
 }
 .linkovi:visited {
   color: red;
+}
+.reminder {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  background-color: rgba(32, 32, 241, 0.8);
+}
+.reminder:hover {
+  transition: 0.5s ease;
+  transform: scale(1.1, 1.1);
+}
+.reminder a {
+  color: white;
+  text-decoration: none;
 }
 .facts {
   display: inline-block;
@@ -113,4 +125,49 @@ header:hover {
   transition: 1.5s ease;
   transform: scale(1.1, 1.1);
   opacity: 0.8;
+}
+.quote {
+  border-radius: 1rem;
+  margin-left: 23rem;
+  text-align: center;
+  width: 56vw;
+  height: 8vh;
+  margin-top: 4rem;
+  background-color: rgba(32, 32, 241, 0.8);
+}
+.quote p {
+  font-family: "Noto Sans Buhid", sans-serif;
+  padding: 1rem;
+}
+.buy {
+  /* background-image: url(./slike/3d-rendering-ethereum-crypto-coin-growing-with-tree_510286-369.jpg); */
+  border-radius: 1.5rem;
+  /* background-size: 100% 100%; */
+  margin-top: 5rem;
+  margin-left: 1rem;
+  display: inline-block;
+  background-color: rgb(178, 150, 253);
+  height: 30vh;
+  width: 23vw;
+}
+.buy p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  font-size: 1.3rem;
+  font-family: "Pontano Sans", sans-serif;
+}
+.buy h2 {
+  font-family: "Farsan", cursive;
+  font-size: 1.6rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: center;
+}
+.buy:hover {
+  background-image: url(./slike/3d-rendering-ethereum-crypto-coin-growing-with-tree_510286-369.jpg);
+  background-size: 100% 100%;
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1, 1.1);
 }
