@@ -127,17 +127,36 @@ header:hover {
   opacity: 0.8;
 }
 .quote {
+  border: 0.2rem outset blue;
   border-radius: 1rem;
-  margin-left: 23rem;
+  margin-left: 20rem;
   text-align: center;
   width: 56vw;
-  height: 8vh;
-  margin-top: 4rem;
+  height: 10vh;
+  margin-top: 7rem;
   background-color: rgba(32, 32, 241, 0.8);
+}
+.slicica {
+  display: inline-block;
+  float: left;
+  width: 20vw;
+  height: 10vh;
+}
+.slicica img {
+  width: 20vw;
+  height: 35vh;
+}
+.slicica:hover {
+  transition: 0.5s ease;
+  transform: scale(1.05, 1.05);
 }
 .quote p {
   font-family: "Noto Sans Buhid", sans-serif;
-  padding: 1rem;
+  padding-top: 0.3rem;
+}
+.quote:hover {
+  transition: 0.8s ease;
+  transform: scale(1.1, 1.05);
 }
 .buy {
   /* background-image: url(./slike/3d-rendering-ethereum-crypto-coin-growing-with-tree_510286-369.jpg); */
