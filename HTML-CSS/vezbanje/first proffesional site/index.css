@@ -69,7 +69,7 @@ header:hover {
   display: inline-block;
   border-radius: 1rem;
   margin-left: 2rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   color: rgb(247, 245, 242);
   background-image: url(./slike/crypto\ background.jpg);
   padding-top: 1.5rem;
@@ -99,7 +99,7 @@ header:hover {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-right: 2rem;
   float: right;
   margin-left: 4rem;
@@ -129,14 +129,16 @@ header:hover {
 .quote {
   border: 0.2rem outset blue;
   border-radius: 1rem;
-  margin-left: 20rem;
+  margin-left: 20.3rem;
   text-align: center;
   width: 56vw;
   height: 10vh;
-  margin-top: 7rem;
+  margin-top: 10rem;
   background-color: rgba(32, 32, 241, 0.8);
 }
 .slicica {
+  margin-left: 0.5rem;
+  margin-top: 3.4rem;
   display: inline-block;
   float: left;
   width: 20vw;
@@ -150,6 +152,22 @@ header:hover {
   transition: 0.5s ease;
   transform: scale(1.05, 1.05);
 }
+.slicicaa {
+  margin-top: -11.5rem;
+  margin-right: 2rem;
+  display: inline-block;
+  float: right;
+  width: 20vw;
+  height: 10vh;
+}
+.slicicaa img {
+  width: 20vw;
+  height: 35vh;
+}
+.slicicaa:hover {
+  transition: 0.5s ease;
+  transform: scale(1.05, 1.05);
+}
 .quote p {
   font-family: "Noto Sans Buhid", sans-serif;
   padding-top: 0.3rem;
@@ -159,10 +177,11 @@ header:hover {
   transform: scale(1.1, 1.05);
 }
 .buy {
+  text-align: center;
   /* background-image: url(./slike/3d-rendering-ethereum-crypto-coin-growing-with-tree_510286-369.jpg); */
   border-radius: 1.5rem;
   /* background-size: 100% 100%; */
-  margin-top: 5rem;
+  margin-top: 10rem;
   margin-left: 1rem;
   display: inline-block;
   background-color: rgb(178, 150, 253);
@@ -189,4 +208,15 @@ header:hover {
   opacity: 0.8;
   transition: 0.3s ease-in-out;
   transform: scale(1.1, 1.1);
+}
+.buy2 {
+  text-align: center;
+  color: white;
+  background-color: rgba(41, 42, 43, 0.203);
+}
+.buy2 h2 {
+  padding-right: 0.5rem;
+}
+.buy2:hover {
+  background-image: url(./slike/0ae84e4ad705287833703ef36717fb34_350226.jpg);
 }
