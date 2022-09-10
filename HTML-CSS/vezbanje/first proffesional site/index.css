@@ -239,11 +239,25 @@ header:hover {
   background-image: url(./slike/ayi-ethereum-boga-3-lu-set-metal-duvar-tablosu-1565-jpg_700x700.jpg);
 }
 .big {
+  background-image: url(./slike/eth-icon02.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "Prompt", sans-serif;
+  padding: 1rem;
+  border-radius: 1rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
   text-align: left;
   display: inline-block;
-  background-color: white;
-  width: 49vw;
+  background-color: rgb(196, 193, 193);
+  width: 47vw;
   height: 30vh;
+}
+.big1 {
+  margin-left: 1rem;
+  text-align: left;
+  display: inline-block;
+  float: left;
 }
 h3 {
   letter-spacing: 1rem;
@@ -256,7 +270,37 @@ h3 {
   font-size: 2.5rem;
 }
 .big2 {
+  margin-right: 1rem;
   text-align: right;
   display: inline-block;
   float: right;
+}
+.big3 {
+  margin-left: 1rem;
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+.big4 {
+  margin-right: 1rem;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+.big5 {
+  margin-left: 1rem;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+.big6 {
+  margin-right: 1rem;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+.big:hover {
+  opacity: 1;
+  transform: scale(1.03, 1.1);
+  transition: 0.9s ease;
 }
