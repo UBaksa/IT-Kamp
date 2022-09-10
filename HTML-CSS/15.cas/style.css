@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans Buhid", sans-serif;
+}
+.main {
+  margin: 2rem auto;
+  width: 95%;
+  height: 200vh;
+  background: blue;
+}
+.box1 {
+  width: 120px;
+  height: 120px;
+  background-color: aqua;
+  /* position: static;-ovo je po default-u */
+  position: relative;
+  top: 20px;
+  left: 50rem;
+}
+.box2 {
+  bottom: 53rem;
+  left: 20rem;
+  position: absolute;
+  /* absolute se odbija od htmla,a relative od parent-a/div-a */
+  width: 120px;
+  height: 120px;
+  background-color: rgb(6, 158, 59);
+}
+.box3 {
+  top: 0;
+  left: 0;
+  position: fixed;
+  /* fixed je da stoji uvek na sajt koliko god da skrolamo uvek je tu!!!!!!!!! */
+  /* fixed je da izgubi svoje mesto i podvuce se na sledece ispod,i upravlja se prema html-u,ne prema parentu */
+  /* parent mora imati position razlicit od static kako bi pomeranje bilo u odnosu na parent a ne na celu stranicu */
+  width: 120px;
+  height: 120px;
+  background-color: rgb(242, 247, 247);
+  z-index: 10;
+}
+.box4 {
+  position: sticky;
+  top: 0;
+  left: 50rem;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(174, 12, 112);
+  /* sticky je isto da stoji kao fixed,dokle se god pomera,ali kada se skrola na mesto gde je prvobitno bio,vraca se i tjt */
+  z-index: 10;
+}
+.box5 {
+  position: relative;
+  z-index: 20;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(243, 122, 1);
+}
+/* z-index sluzi da se podvuce nesto pod nesto ali mora da se pazi ono sto se provlaci kroz nesto mora da ima manji z-index od onoga sto se nece menjat,i praksa je da se razlikuju od po min 5 brojeva */

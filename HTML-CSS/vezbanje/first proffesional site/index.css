@@ -6,6 +6,8 @@ body {
   background-color: rgb(101, 150, 247);
 }
 header {
+  width: 100%;
+  /* position: fixed; */
   background-color: white;
   height: 20vh;
 }
@@ -239,6 +241,7 @@ header:hover {
   background-image: url(./slike/ayi-ethereum-boga-3-lu-set-metal-duvar-tablosu-1565-jpg_700x700.jpg);
 }
 .big {
+  /* clear: both; */
   background-image: url(./slike/eth-icon02.gif);
   background-size: contain;
   background-repeat: no-repeat;
