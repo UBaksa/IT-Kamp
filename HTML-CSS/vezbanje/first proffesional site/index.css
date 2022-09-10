@@ -220,3 +220,43 @@ header:hover {
 .buy2:hover {
   background-image: url(./slike/0ae84e4ad705287833703ef36717fb34_350226.jpg);
 }
+.buy3 {
+  color: rgb(178, 5, 5);
+  text-align: center;
+  background-color: rgb(3, 126, 142);
+}
+.buy3:hover {
+  color: aqua;
+  background-image: url(./slike/george-brx-03-15-ethereum-planet.jpg);
+}
+.buy4 {
+  color: rgb(62, 1, 62);
+  background-color: rgb(2, 153, 87);
+  text-align: center;
+}
+.buy4:hover {
+  color: red;
+  background-image: url(./slike/ayi-ethereum-boga-3-lu-set-metal-duvar-tablosu-1565-jpg_700x700.jpg);
+}
+.big {
+  text-align: left;
+  display: inline-block;
+  background-color: white;
+  width: 49vw;
+  height: 30vh;
+}
+h3 {
+  letter-spacing: 1rem;
+  line-height: 5rem;
+  font-family: "Quicksand", sans-serif;
+  background-color: rgba(32, 32, 241, 0.8);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 30rem;
+  font-size: 2.5rem;
+}
+.big2 {
+  text-align: right;
+  display: inline-block;
+  float: right;
+}
