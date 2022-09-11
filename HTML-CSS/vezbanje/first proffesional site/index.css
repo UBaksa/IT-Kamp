@@ -3,13 +3,16 @@
   box-sizing: border-box;
 }
 body {
+  position: relative;
   background-color: rgb(101, 150, 247);
 }
 header {
   width: 100%;
-  /* position: fixed; */
+  position: sticky;
+  top: 0;
   background-color: white;
   height: 20vh;
+  z-index: 1000;
 }
 header img {
   clear: both;
