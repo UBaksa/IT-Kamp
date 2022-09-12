@@ -7,6 +7,7 @@ body {
   background-color: rgb(101, 150, 247);
 }
 header {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   width: 100%;
   position: sticky;
   top: 0;
@@ -58,11 +59,13 @@ header:hover {
   color: red;
 }
 .reminder {
+  box-shadow: rgba(5, 5, 5, 0.35) 0px -50px 36px -15px inset;
   font-family: "Quicksand", sans-serif;
   text-align: center;
   background-color: rgba(32, 32, 241, 0.8);
 }
 .reminder:hover {
+  box-shadow: rgba(236, 233, 233, 0.35) 0px -50px 36px -35px inset;
   transition: 0.5s ease;
   transform: scale(1.1, 1.1);
 }
@@ -71,6 +74,9 @@ header:hover {
   text-decoration: none;
 }
 .facts {
+  box-shadow: rgba(46, 46, 240, 0.4) -5px 5px,
+    rgba(88, 46, 240, 0.393) -10px 10px, rgba(46, 204, 240, 0.2) -15px 15px,
+    rgba(46, 227, 240, 0.1) -20px 20px, rgba(31, 11, 211, 0.071) -25px 25px;
   display: inline-block;
   border-radius: 1rem;
   margin-left: 2rem;
@@ -99,6 +105,9 @@ header:hover {
   opacity: 0.8;
 }
 .fact2 {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
   color: black;
   background-image: url(./slike/ethereum-cryptocurrency-technology-abstract-background-concept-light-neon-pink-blue-logo-futuristic-background-blue-3d-illustration-rendering_37129-2429.jpg);
   background-repeat: no-repeat;
@@ -182,6 +191,7 @@ header:hover {
   transform: scale(1.1, 1.05);
 }
 .buy {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   text-align: center;
   /* background-image: url(./slike/3d-rendering-ethereum-crypto-coin-growing-with-tree_510286-369.jpg); */
   border-radius: 1.5rem;
@@ -215,6 +225,7 @@ header:hover {
   transform: scale(1.1, 1.1);
 }
 .buy2 {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   text-align: center;
   color: white;
   background-color: rgba(41, 42, 43, 0.203);
@@ -226,6 +237,7 @@ header:hover {
   background-image: url(./slike/0ae84e4ad705287833703ef36717fb34_350226.jpg);
 }
 .buy3 {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   color: rgb(178, 5, 5);
   text-align: center;
   background-color: rgb(3, 126, 142);
@@ -235,6 +247,7 @@ header:hover {
   background-image: url(./slike/george-brx-03-15-ethereum-planet.jpg);
 }
 .buy4 {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   color: rgb(62, 1, 62);
   background-color: rgb(2, 153, 87);
   text-align: center;
@@ -244,6 +257,8 @@ header:hover {
   background-image: url(./slike/ayi-ethereum-boga-3-lu-set-metal-duvar-tablosu-1565-jpg_700x700.jpg);
 }
 .big {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   /* clear: both; */
   background-image: url(./slike/eth-icon02.gif);
   background-size: contain;
@@ -266,6 +281,7 @@ header:hover {
   float: left;
 }
 h3 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -5px inset;
   letter-spacing: 1rem;
   line-height: 5rem;
   font-family: "Quicksand", sans-serif;
@@ -311,6 +327,8 @@ h3 {
   transition: 0.9s ease;
 }
 .end {
+  position: relative;
+  bottom: 0%;
   margin-top: 55rem;
   margin-bottom: 0;
   background-color: rgba(32, 32, 241, 0.8);
