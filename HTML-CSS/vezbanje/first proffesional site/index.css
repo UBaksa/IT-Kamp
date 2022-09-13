@@ -329,8 +329,6 @@ h3 {
 .end {
   box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -5px inset;
   position: static;
-  bottom: 0;
-  top: 0;
   margin-top: 55rem;
   margin-bottom: 0;
   background-color: rgba(32, 32, 241, 0.8);
