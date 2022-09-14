@@ -1,0 +1,89 @@
+.sajtt {
+  z-index: 100;
+  display: inline-block;
+}
+.sajtt img {
+  height: 40%;
+  margin-top: 4rem;
+  left: -6rem;
+  position: absolute;
+}
+iframe {
+  z-index: 100;
+  border-radius: 2rem;
+  box-shadow: rgb(230, 230, 231) 0px 50px 100px -20px,
+    rgba(250, 248, 248, 0.6) 0px 30px 60px -30px,
+    rgba(249, 250, 250, 0.35) 0px -2px 6px 0px inset;
+  height: 70vh;
+  width: 60vw;
+  margin-left: 19rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.end1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -5px inset;
+  position: static;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  background-color: rgba(32, 32, 241, 0.8);
+  width: 98.9vw;
+  height: 56vh;
+}
+.end1 img {
+  width: 30vw;
+  height: 55.65vh;
+}
+.end1 h1 {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.5rem;
+  margin-right: 15rem;
+  margin-top: 3rem;
+  display: inline-block;
+  float: right;
+}
+.end1 h1:hover {
+  color: white;
+  transition: 0.9s ease;
+  transform: scale(0.9, 0.9);
+}
+.sajtt img:hover {
+  transition: 0.5s ease;
+  transform: scale(0.8, 0.8);
+}
+.slikaa {
+  display: inline-block;
+  float: right;
+}
+.slikaa img {
+  height: 40%;
+  margin-top: 4rem;
+  right: -7rem;
+  position: absolute;
+}
+.slikaa img:hover {
+  transition: 0.5s ease;
+  transform: scale(0.8, 0.8);
+}
+i {
+  color: white;
+  margin-left: -42.5rem;
+}
+span {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+span:hover {
+  transition: 0.8s ease;
+  color: black;
+}
+i:hover {
+  transition: 0.8s ease;
+  color: black;
+}

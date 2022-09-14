@@ -38,9 +38,9 @@ header img {
   margin-left: 0.5rem;
 }
 .linkovi a:hover {
-  color: aqua;
+  color: ;
   padding: 5px;
-  background-color: rgb(101, 150, 247);
+  background-color: rgba(32, 32, 241, 0.8);
   border-radius: 5px;
 }
 header p {
