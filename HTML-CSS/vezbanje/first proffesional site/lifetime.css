@@ -71,7 +71,7 @@ iframe {
   transition: 0.5s ease;
   transform: scale(0.8, 0.8);
 }
-i {
+.notice i {
   color: white;
   margin-left: -42.5rem;
 }

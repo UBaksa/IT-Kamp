@@ -1,0 +1,62 @@
+.alert h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+  top: 0;
+  position: sticky;
+  background-color: gold;
+}
+.alert {
+  opacity: 0.9;
+  box-shadow: rgba(247, 246, 246, 0.35) 0px -25px 25px -15px inset;
+  z-index: 1000;
+  top: 0;
+  position: sticky;
+}
+.alert:hover {
+  opacity: 1;
+  box-shadow: rgba(236, 233, 233, 0.35) 0px -50px 36px -35px inset;
+  transition: 0.5s ease;
+  transform: scale(1.1, 1.1);
+}
+.alert a {
+  text-decoration: none;
+  color: gray;
+}
+.alert a:hover {
+  transition: 0.5s ease;
+  transform: scale(1.1, 1.1);
+  color: white;
+}
+.end1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -5px inset;
+  position: static;
+  margin-top: 300rem;
+  margin-bottom: 0;
+  background-color: rgba(32, 32, 241, 0.8);
+  width: 98.9vw;
+  height: 56vh;
+}
+.end1 img {
+  width: 30vw;
+  height: 55.65vh;
+}
+.end1 h1 {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.5rem;
+  margin-right: 15rem;
+  margin-top: 3rem;
+  display: inline-block;
+  float: right;
+}
+.end1 h1:hover {
+  color: white;
+  transition: 0.9s ease;
+  transform: scale(0.9, 0.9);
+}
