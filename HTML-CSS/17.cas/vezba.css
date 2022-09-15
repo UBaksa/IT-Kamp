@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+}
+.main {
+  background-color: brown;
+  width: 75%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main img {
+  flex-basis: 10%;
+}
+.divv {
+  justify-self: left;
+  flex-basis: 75%;
+}

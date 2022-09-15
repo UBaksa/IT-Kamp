@@ -1,0 +1,61 @@
+*m {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  display: flex;
+  /* flex pretvara sve u inline element */
+  width: 85%;
+  height: 500px;
+  background-color: rgb(250, 111, 4);
+  margin: auto;
+  /* horizontalno poravnanje */
+  /* justify-content:start ovo je defaultna vrednost;/ili flex */
+  /* justify-content: center   ; */
+  /* justify-content: end;-na kraj */
+  justify-content: space-between;
+  /* justify-content: space-between;ovo je da ih odvoji-da im napravi razmak izmedju njih */
+  /* justify-content: space-around;-ne ide se od ivice vec se ostavlja prostor izmedju,koji je veci izmedju kontejnera i prvog glavnog kontejnera,ali isto ih odvaja */
+  /* justify-content: space-evenly;da bude isti razmak svugde ali da ga ima i od pocetka */
+
+  /* Vertikalno poravnanje */
+  /* align-items: flex-start;default */
+  align-items: center;
+  /* align-items: flex-end; */
+}
+.box {
+  /* align self je da posebno samo div podesavas */
+  align-self: flex-start;
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 238, 255);
+}
+.box2 {
+  display: flex;
+  align-self: flex-end;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 255, 21);
+}
+.links {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  /* ovo je da se maknu tackice kod liste */
+  /* gap je da pravi razmak izmedju linkova/ili divova ili parametara */
+}
+.links a {
+  text-decoration: none;
+  color: green;
+}

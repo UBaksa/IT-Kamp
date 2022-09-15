@@ -1,0 +1,64 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+.main {
+  margin: auto;
+  width: 75%;
+  height: 550px;
+  background-color: coral;
+  display: flex;
+  /* flex-wrap:nowrap:  ovo je defaultna vrednost*/
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ORDER svojstvo je omoguceno u child kontejneru ali je neophodno podesiti order svakom child kontejneru kako bi se primenilo redjanje na pravi nacin */
+.box1 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 238, 255);
+  order: 4;
+}
+.box2 {
+  order: 2;
+  /* width: 150px; */
+  flex-basis: 150px;
+  /* umesto width moze FLEX-BASIS!!!! */
+  height: 150px;
+  background-color: rgb(6, 3, 221);
+}
+.box3 {
+  overflow: auto;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(134, 234, 4);
+  order: 3;
+}
+.box4 {
+  overflow: auto;
+  order: 2;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(31, 145, 3, 0.356);
+}
+/* .box5 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(244, 248, 248);
+}
+.box6 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 8, 0);
+}
+.box7 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(3, 3, 3);
+} */
+/* .box8 { 
+  width: 150px;
+  height: 150px;
+  background-color: rgb(55, 3, 3);
+ } */

@@ -9,7 +9,7 @@
   opacity: 0.9;
   box-shadow: rgba(247, 246, 246, 0.35) 0px -25px 25px -15px inset;
   z-index: 1000;
-  top: 0;
+  top: 20vh;
   position: sticky;
 }
 .alert:hover {
