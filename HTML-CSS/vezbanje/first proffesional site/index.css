@@ -43,6 +43,30 @@ header img {
   background-color: rgba(32, 32, 241, 0.8);
   border-radius: 5px;
 }
+.linkovi input{
+  color: white;
+  width: 13vw;
+  height: 4vh;
+ /* background-color: rgba(189, 189, 192, 0.8); */
+  border-radius: 0.7rem;
+  right: 35rem;
+  top: 7rem;
+  position: absolute;
+  display: inline-block
+  background-color: ;
+}
+.linkovi input[type=text] {
+  background-image: url(./slike/free-search-icon-3076-thumb.png);
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+.linkovi i{
+  position: absolute;
+  top: 7.3rem;
+  right: 46rem;
+}
 header p {
   font-size: 2rem;
   font-family: "Quicksand", sans-serif;
