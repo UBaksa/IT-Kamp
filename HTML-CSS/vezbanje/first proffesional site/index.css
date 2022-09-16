@@ -315,6 +315,10 @@ h3 {
   padding-left: 30rem;
   font-size: 2.5rem;
 }
+h3:hover{
+  transition: 0.8s ease;
+  transform: scale(1.05,1.05);
+}
 .big2 {
   margin-right: 1rem;
   text-align: right;
@@ -326,6 +330,10 @@ h3 {
   display: inline-block;
   text-align: left;
   float: left;
+}
+.big3 a{
+  color: white;
+  text-decoration: none;
 }
 .big4 {
   margin-right: 1rem;

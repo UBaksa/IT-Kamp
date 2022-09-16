@@ -56,25 +56,43 @@
   float: right;
 }
 .end1 h1:hover {
+  cursor: default;
   color: white;
   transition: 0.9s ease;
   transform: scale(0.9, 0.9);
 }
-.child {
+.naslov {
   margin-top: 3.5rem;
 }
-.child h1 {
+.naslov h1 {
   background-image: linear-gradient(rgb(77, 6, 240), rgb(164, 163, 165));
   font-family: "Quicksand", sans-serif;
   padding: 1rem;
   text-align: center;
 }
-.child h1:hover {
+.naslov h1:hover {
   transform: scale(1.1, 1.05);
   cursor: default;
   transition: 0.9s ease;
 }
+.naslov a {
+  color: white;
+  text-decoration: none;
+}
+.child {
+  justify-content: space-between;
+  display: flex;
+}
+.child img {
+  top: 45rem;
+  left: 19rem;
+  position: absolute;
+  z-index: 10;
+  height: 80vh;
+  width: 60vw;
+}
 .child1 {
+  z-index: 20;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -105,4 +123,37 @@
 .child1 ol {
   font-family: "Kanit", sans-serif;
   font-size: 1.2rem;
+}
+.child2 {
+  z-index: 20;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  opacity: 0.85;
+  border-radius: 1.5rem;
+  margin: 1.5rem;
+  background-image: linear-gradient(rgb(164, 163, 165), rgb(76, 0, 255));
+  width: 50vw;
+  padding: 1.5rem;
+}
+.child2 h2 {
+  padding: 0.5rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+}
+.child2 p {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+.child2 ol {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.2rem;
+}
+.child2:hover {
+  opacity: 1;
+  transition: 0.9s ease;
+  transform: scale(1.05, 1.05);
 }
