@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+  height: 20vh;
+  align-items: flex-end;
+}
+header:hover {
+  transition: 0.8s ease;
+  transform: scale(1, 1.2);
+}
+header h2 {
+  position: relative;
+  left: 10rem;
+  top: 1rem;
+  font-size: 2rem;
+  color: white;
+  font-family: "Pontano Sans", sans-serif;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  width: 15vh;
+  height: 15vh;
+}
+header button {
+  cursor: pointer;
+  position: relative;
+  top: -0.5rem;
+  right: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+  border-radius: 1rem;
+  width: 5vw;
+  height: 5vh;
+}
+.linkovi {
+  text-decoration: none;
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header a:hover {
+  width: 13vw;
+  height: 4vh;
+  background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+  border-radius: 2rem;
+}
+.main {
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+}
+.child1 {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+  width: 50%;
+}
+.one {
+  border-radius: 1rem;
+  font-family: "Prompt", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-image: linear-gradient(rgb(248, 7, 7), rgb(52, 51, 51));
+  height: 50vh;
+  width: 20vw;
+}
+.one h2 {
+  text-align: center;
+}
+.one p {
+  padding: 1rem;
+  text-align: center;
+}
+#olovka {
+  margin-left: 7.5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+.two {
+  margin-top: 3rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-family: "Prompt", sans-serif;
+  background-image: linear-gradient(rgb(248, 7, 7), rgb(5, 0, 0));
+  height: 50vh;
+  width: 20vw;
+}
+.two h2 {
+  text-align: center;
+}
+.two p {
+  padding: 1rem;
+  text-align: center;
+}
+#wrench {
+  margin-left: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+.three {
+  margin-top: 4rem;
+  color: rgb(88, 84, 84);
+  border-radius: 1rem;
+  font-family: "Prompt", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-image: linear-gradient(rgb(50, 1, 1), rgb(52, 51, 51));
+  height: 50vh;
+  width: 20vw;
+}
+#makaze {
+  margin-left: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+#sijalica {
+  margin-left: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+.three h2 {
+  text-align: center;
+}
+.three p {
+  padding: 1rem;
+  text-align: center;
+}
+.child2 {
+  width: 50%;
+}
+.child2 img {
+  margin-top: 10rem;
+  width: 100%;
+  height: 80vh;
+}
+.four {
+  margin-top: 6rem;
+  border-radius: 1rem;
+  font-family: "Prompt", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-image: linear-gradient(rgb(245, 73, 73), rgb(52, 51, 51));
+  height: 50vh;
+  width: 20vw;
+}
+.four h2 {
+  text-align: center;
+}
+.four p {
+  padding: 1rem;
+  text-align: center;
+}
+.one:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s ease;
+}
+.two:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s ease;
+}
+.three:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s ease;
+}
+.four:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s ease;
+}
