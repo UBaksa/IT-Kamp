@@ -247,3 +247,11 @@
   transition: 0.9s ease;
   transform: scale(1.05, 1.05);
 }
+#pett {
+  left: 10rem;
+  position: relative;
+  top: -45rem;
+  z-index: 5;
+  width: 80vw;
+  height: 80vh;
+}
