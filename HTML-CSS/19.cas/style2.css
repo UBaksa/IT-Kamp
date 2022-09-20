@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-size: 100%;
+  background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+  background-repeat: no-repeat;
+}
+.parent {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: burlywood;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(rgb(249, 249, 249), rgb(153, 151, 156));
+  /* transition-property: transform;  prvo svojstvo*/
+  /* transition-duration: 0.5s; ovo je drugo svojstvo */
+  /* transition-timing-function: ease-in-out;-trece */
+  /* transition-delay: 1s;-cetvrta,ovo je delay-cekanje */
+}
+/* kad se predje preko parent,desava se hover na child,ovo kod ispod */
+.parent:hover .child {
+  transition: 2s cubic-bezier(0, -0.65, 1, 2.02) 1s;
+  transform: translateX(250px) translateY(250px);
+  /* background-image: linear-gradient(rgb(219, 3, 3), rgb(5, 5, 5)); */
+}
