@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-size: 100%;
+  background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+  background-repeat: no-repeat;
+}
+.parent {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: burlywood;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(rgb(249, 249, 249), rgb(153, 151, 156));
+}
+/* kad se predje preko parent,desava se hover na child,ovo kod ispod */
+.parent:hover .child {
+  transform: translateX(250px) translateY(250px);
+}
