@@ -326,3 +326,13 @@ header {
   text-decoration: none;
   color: white;
 }
+
+.slide img {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  height: 40vh;
+}
+.slide img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.8s ease-in 0.2s;
+}
