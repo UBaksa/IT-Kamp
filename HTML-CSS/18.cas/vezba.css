@@ -279,3 +279,33 @@ footer:hover i {
   margin-left: 0.4rem;
   margin-top: 0.4rem;
 }
+.futer {
+  background-image: linear-gradient(rgb(116, 73, 245), rgb(52, 51, 51));
+  width: 40vw;
+  height: 20vh;
+  border-radius: 1rem;
+  margin: auto;
+}
+.futer h1 {
+  letter-spacing: 0.4rem;
+  margin-top: 3rem;
+  text-align: center;
+  color: rgb(254, 253, 253);
+  font-family: "Prompt", sans-serif;
+}
+.futer p {
+  padding-top: 2rem;
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+}
+.futer:hover {
+  transition: 0.8s ease-in-out 0.5s;
+  transform: scale(0.9, 0.9);
+}
+footer img {
+  margin-top: 5rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  height: 25vh;
+  width: 20vw;
+}
