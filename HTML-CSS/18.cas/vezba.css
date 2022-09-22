@@ -280,6 +280,7 @@ footer:hover i {
   margin-top: 0.4rem;
 }
 .futer {
+  cursor: default;
   background-image: linear-gradient(rgb(116, 73, 245), rgb(52, 51, 51));
   width: 40vw;
   height: 20vh;
@@ -305,7 +306,7 @@ footer:hover i {
 footer img {
   margin-top: 5rem;
   margin-right: 5rem;
-  margin-left: 5rem;
+  margin-left: 3rem;
   height: 25vh;
   width: 20vw;
 }
