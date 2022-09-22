@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 header {
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   color: white;
   font-family: "Quicksand", sans-serif;
@@ -199,7 +200,6 @@ footer {
   margin-left: 0.1rem;
   width: 2.5rem;
   height: 2.5rem;
-  /* background-color: yellow; */
   background-image: linear-gradient(rgb(116, 73, 245), rgb(52, 51, 51));
   border-radius: 5rem;
 }
@@ -309,4 +309,138 @@ footer img {
   margin-left: 3rem;
   height: 25vh;
   width: 20vw;
+}
+@media (min-width: 500px) and (max-width: 700px) {
+  body {
+    font-size: 0.2rem;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+    height: 20vh;
+    align-items: flex-end;
+  }
+  header h2 {
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    width: 15vh;
+    height: 15vh;
+  }
+  header button {
+    cursor: pointer;
+    position: relative;
+    top: -0.5rem;
+    right: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+    border-radius: 1rem;
+    width: 10vw;
+    height: 5vh;
+  }
+  .linkovi {
+    text-decoration: none;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+  }
+  header a {
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+  }
+  .child1 {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+  }
+  .one {
+    font-size: 1rem;
+    height: 50vh;
+    width: 45vw;
+  }
+  #olovka {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+  }
+  .two {
+    margin-top: 0rem;
+    font-size: 1rem;
+    height: 50vh;
+    width: 45vw;
+  }
+  .main {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #wrench {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+  }
+  .three {
+    font-size: 1rem;
+    margin-top: 2rem;
+    height: 50vh;
+    width: 45vw;
+  }
+  #makaze {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+  }
+  #sijalica {
+    margin-left: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+  }
+  .three h2 {
+    text-align: center;
+  }
+  .three p {
+    padding: 1rem;
+    text-align: center;
+  }
+  .child2 {
+    width: 100%;
+  }
+  .child2 img {
+    margin-top: 10rem;
+    width: 100%;
+    height: 80vh;
+  }
+  .four {
+    font-size: 1rem;
+    margin-top: 2rem;
+    height: 50vh;
+    width: 45vw;
+  }
+  .loptica {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-top: 0.2rem;
+    margin-left: 0.1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: linear-gradient(rgb(116, 73, 245), rgb(52, 51, 51));
+    border-radius: 5rem;
+  }
 }
