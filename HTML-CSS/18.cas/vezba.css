@@ -496,4 +496,191 @@ footer img {
       height: 1rem;
       width: 1rem;
     }
+  }
+    @media (min-width: 300px) and (max-width: 500px) {
+      body {
+        font-size: 0.2rem;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+        height: 10vh;
+        align-items: flex-end;
+      }
+      header h2 {
+        position: relative;
+        left: 1rem;
+        top: 1rem;
+        font-size: 0.1rem;
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        width: 15vh;
+        height: 15vh;
+      }
+      header button {
+        cursor: pointer;
+        position: relative;
+        top: -0.5rem;
+        right: 1rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
+        border-radius: 1rem;
+        width: 10vw;
+        height: 5vh;
+      }
+      .linkovi {
+        text-decoration: none;
+        display: flex;
+        gap: 2rem;
+        list-style-type: none;
+      }
+      header a {
+        font-size: 0.8rem;
+        color: white;
+        text-decoration: none;
+      }
+      .child1 {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+      }
+      .one {
+        font-size: 1rem;
+        height: 50vh;
+        width: 45vw;
+      }
+      #olovka {
+        margin-left: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 4rem;
+      }
+      .two {
+        margin-top: 0rem;
+        font-size: 1rem;
+        height: 50vh;
+        width: 45vw;
+      }
+      .main {
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+      }
+      #wrench {
+        margin-left: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 4rem;
+      }
+      .three {
+        font-size: 1rem;
+        margin-top: 2rem;
+        height: 50vh;
+        width: 45vw;
+      }
+      #makaze {
+        margin-left: 6rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: 4rem;
+      }
+      #sijalica {
+        margin-left: 6rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: 5rem;
+      }
+      .three h2 {
+        text-align: center;
+      }
+      .three p {
+        padding: 1rem;
+        text-align: center;
+      }
+      .child2 {
+        width: 100%;
+      }
+      .child2 img {
+        margin-top: 10rem;
+        width: 100%;
+        height: 80vh;
+      }
+      .four {
+        font-size: 1rem;
+        margin-top: 2rem;
+        height: 50vh;
+        width: 45vw;
+      }
+      @keyframes kruzenje {
+        0% {
+          transform: translateX(0rem);
+        }
+        33% {
+          background-image: linear-gradient(rgb(249, 245, 245), rgb(247, 4, 4));
+          transform: translateY(19rem);
+        }
+        60% {
+          background-image: linear-gradient(rgb(243, 3, 3), rgb(248, 228, 7));
+          transform: translateX(28rem) translateY(19rem);
+        }
+        80% {
+          transform: translateX(28rem) translateY(0rem);
+          background-image: linear-gradient(rgb(2, 250, 6), rgb(247, 3, 3));
+        }
+        100% {
+          background-image: linear-gradient(rgb(252, 6, 190), rgb(7, 0, 0));
+          transform: translateX(0rem);
+        }
+        .loptica2 {
+          position: relative;
+          left: -30rem;
+          margin-top: 14rem;
+          width: 2.5rem;
+          height: 2.5rem;
+          background-image: linear-gradient(rgb(116, 73, 245), rgb(52, 51, 51));
+          border-radius: 5rem;
+        }
+        @keyframes kruzenjee {
+          0% {
+            transform: translateX(0rem);
+          }
+          33% {
+            background-image: linear-gradient(rgb(2, 250, 6), rgb(247, 3, 3));
+            transform: translateY(-19rem);
+          }
+        
+          60% {
+            background-image: linear-gradient(rgb(243, 3, 3), rgb(248, 228, 7));
+            transform: translateX(-30rem) translateY(-19rem);
+          }
+          80% {
+            background-image: linear-gradient(rgb(249, 245, 245), rgb(247, 4, 4));
+            transform: translateY(0rem) translateX(-30rem);
+          }
+          100% {
+            background-image: linear-gradient(rgb(252, 6, 190), rgb(7, 0, 0));
+            transform: translateX(0) translateY(0);
+          }
+        }
+        .futer p {
+          padding-top: 1rem;
+          text-align: center;
+          font-family: "Prompt", sans-serif;
+        }
+        .futer:hover {
+          transition: 0.8s ease-in-out 0.5s;
+          transform: scale(0.9, 0.9);
+        }
+        footer img {
+          margin-top: 1rem;
+          margin-right: 1rem;
+          margin-left: 1rem;
+          height: 1rem;
+          width: 1rem;
+        }
 }
