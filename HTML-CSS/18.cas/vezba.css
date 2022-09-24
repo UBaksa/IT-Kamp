@@ -319,13 +319,14 @@ footer img {
     justify-content: space-between;
     background-image: linear-gradient(rgb(139, 7, 248), rgb(153, 151, 156));
     height: 20vh;
+    width: 60rem;
     align-items: flex-end;
   }
   header h2 {
     position: relative;
     left: 1rem;
     top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     margin-top: 1.5rem;
     margin-left: 1.5rem;
     width: 15vh;
@@ -350,11 +351,12 @@ footer img {
     list-style-type: none;
   }
   header a {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: white;
     text-decoration: none;
   }
   .child1 {
+    margin-left: 7rem;
     justify-content: space-around;
     flex-wrap: wrap;
     display: flex;
@@ -416,6 +418,7 @@ footer img {
     text-align: center;
   }
   .child2 {
+    margin-left: 7rem;
     width: 100%;
   }
   .child2 img {
