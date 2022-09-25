@@ -10,11 +10,13 @@
   display: grid;
   /* grid-template-columns: 150px 250px;,dve vrednosti  za 2 divapredstavljaju da imamo dve kolone  */
   grid-template-columns: 1fr 2fr 1fr;
-  /* grid-template-columns je da se svi elementi stave u kolonu i da se ponaosob unesu vrednosti za divove kako bi bili isti */
+  /* grid-template-columns je da se svi elementi stave u kolonu i da se ponaosob unesu vrednosti za divove kako bi bili isti,i da popune celu duzinu div-a */
   /* takodje je ovo slicno flex grow */
   grid-template-columns: repeat(3, 1fr);
+  /* ova trojka objasnjava na koliko kolona ce se ponovit,a ovo fr duzinu jednog boxa unutar diva */
 
   /* grid-template-rows: 200px 150px; svaka vrednost predstavlja visinu elemenata za taj red. */
+  /* takodje moze i ovo kao za columng template ali se ovo auto preferira. */
   /* grid-auto-rows: 200px; predstavlja visinu svih redova  */
   grid-auto-rows: minmax(150px, auto);
 
