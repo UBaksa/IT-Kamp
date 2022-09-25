@@ -208,7 +208,7 @@ header {
 }
 #rukaa {
   position: relative;
-  left: 1rem;
+  left: -1rem;
   height: 250px;
   width: 350px;
 }
@@ -217,12 +217,13 @@ header {
   transform: scale(1.1, 1.1);
 }
 #ryka {
-  float: right;
+  position: relative;
+  right: -52rem;
   height: 250px;
   width: 350px;
 }
 #prozor {
-  margin-left: 10rem;
+  margin-left: -10rem;
   height: 250px;
   width: 450px;
 }
@@ -272,7 +273,7 @@ header {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  top: -30rem;
+  top: -20rem;
   position: relative;
   background-image: linear-gradient(rgb(164, 163, 165), rgb(76, 0, 255));
   width: 100vw;
@@ -343,7 +344,7 @@ header {
 #krampa {
   width: 25vw;
   left: 27rem;
-  top: -53rem;
+  top: -43rem;
   position: relative;
   height: 35vh;
 }
@@ -351,8 +352,20 @@ header {
   height: 25vh;
   width: 20vw;
   position: relative;
-  top: -43rem;
+  top: -33rem;
   left: 20rem;
+}
+#eth {
+  left: -15rem;
+  height: 40vh;
+  position: relative;
+  top: -92rem;
+}
+#bear {
+  left: -15rem;
+  height: 40vh;
+  position: relative;
+  top: -92rem;
 }
 .slidze:hover {
   animation: krampica 4s ease-in-out forwards infinite 0.5s;
