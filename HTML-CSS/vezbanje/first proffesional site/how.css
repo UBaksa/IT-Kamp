@@ -336,3 +336,41 @@ header {
   transform: scale(1.1, 1.1);
   transition: 0.8s ease-in 0.2s;
 }
+.slidze {
+  display: flex;
+  position: relative;
+}
+#krampa {
+  width: 25vw;
+  left: 27rem;
+  top: -53rem;
+  position: relative;
+  height: 35vh;
+}
+#giff {
+  height: 25vh;
+  width: 20vw;
+  position: relative;
+  top: -43rem;
+  left: 20rem;
+}
+.slidze:hover {
+  animation: krampica 4s ease-in-out forwards infinite 0.5s;
+}
+@keyframes krampica {
+  0% {
+    transform: translateX(0rem);
+  }
+  25% {
+    transform: translateX(-25rem);
+  }
+  50% {
+    transform: translate(0rem);
+  }
+  75% {
+    transform: translate(25rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
