@@ -5,7 +5,7 @@
 body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: linear-gradient(white, orange);
+  background-image: linear-gradient(white, white, blue);
   font-family: "Noto Sans Buhid", sans-serif;
 }
 header {
@@ -19,7 +19,7 @@ header {
   box-shadow: rgb(218, 218, 217) 0px -50px 36px -28px inset;
   opacity: 0.85;
   height: 15rem;
-  width: 96rem;
+  width: 94.9rem;
 }
 header h1 {
   text-transform: uppercase;
@@ -59,12 +59,13 @@ header h2 {
   width: 23rem;
 }
 header a {
+  font-size: 1.1rem;
   color: #ffa500;
   text-decoration: none;
 }
 header a:hover {
-  color: white;
-  background-image: linear-gradient(#ffffff#ffa500ge);
+  color: rgb(224, 223, 223);
+  background-image: linear-gradient(#ffa500, white);
   border-radius: 0.5rem;
 }
 header:hover .loptica {
@@ -95,36 +96,74 @@ header:hover {
 header ul {
   font-family: "Prompt", sans-serif;
   margin-top: 3rem;
-  margin-left: 67rem;
+  margin-left: 65rem;
   text-decoration: none;
   display: flex;
   gap: 2rem;
   list-style-type: none;
 }
-.welcome {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-image: linear-gradient(#ffa500, #ffffff);
-  border-radius: 3rem;
-  box-sizing: border-box;
-  text-align: center;
-  margin: -8rem auto;
-  height: 6rem;
-  width: 35rem;
-}
-.welcome h1 {
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+.main {
+  border-radius: 2rem;
   margin: auto;
-  font-size: 2.4rem;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-family: "Source Serif Pro", serif;
+  width: 80%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  grid-template-areas:
+    "header header header"
+    " section main article"
+    "section main article";
+  grid-gap: 1rem;
 }
-.welcome h2 {
-  color: #ffa500;
-  margin-top: -0.5rem;
-  font-family: "Prompt", sans-serif;
-  font-size: 1.1rem;
+.box1 {
+  border-radius: 2rem;
+  background-image: linear-gradient(#ffa500, white);
+  grid-area: header;
+}
+.box1 h1 {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  text-align: center;
+  font-family: "Source Serif Pro", serif;
+  font-size: 3rem;
+}
+.box1 h2 {
+  font-family: "Quicksand", sans-serif;
+  color: red;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.box2 {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-image: linear-gradient(#ffa500, white);
+  grid-area: section;
+}
+.box2 h2 {
+  margin-top: 0.5rem;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.box2 p {
+  font-family: "Noto Sans Buhid", sans-serif;
+  color: red;
+  text-align-last: center;
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+.box3 {
+  grid-area: article;
+  background-color: yellow;
+}
+.box4 {
+  grid-area: main;
+  background-color: rgb(57, 55, 55);
 }
