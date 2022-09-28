@@ -3,12 +3,18 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Noto Sans Buhid", sans-serif;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: linear-gradient(orange, white);
+  background-image: linear-gradient(white, orange);
+  font-family: "Noto Sans Buhid", sans-serif;
 }
 header {
+  cursor: default;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: linear-gradient(#ffa500, #ffffff);
   position: sticky;
   box-shadow: rgb(218, 218, 217) 0px -50px 36px -28px inset;
   opacity: 0.85;
@@ -41,7 +47,7 @@ header h2 {
   border-radius: 5rem;
 }
 .loptica i {
-  color: white;
+  color: #ffffff;
   font-size: 1.5rem;
   margin-left: 1.5rem;
 }
@@ -52,12 +58,21 @@ header h2 {
   height: 10rem;
   width: 23rem;
 }
-
+header a {
+  color: #ffa500;
+  text-decoration: none;
+}
+header a:hover {
+  color: white;
+  background-image: linear-gradient(#ffffff#ffa500ge);
+  border-radius: 0.5rem;
+}
 header:hover .loptica {
   animation: kruzenje 4s ease-in-out forwards infinite 0.5s alternate;
 }
 header:hover {
   transition: 1s ease;
+  transform: scale(1.01, 1);
   opacity: 1;
 }
 @keyframes kruzenje {
@@ -80,9 +95,36 @@ header:hover {
 header ul {
   font-family: "Prompt", sans-serif;
   margin-top: 3rem;
-  margin-left: 65rem;
+  margin-left: 67rem;
   text-decoration: none;
   display: flex;
   gap: 2rem;
   list-style-type: none;
+}
+.welcome {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: linear-gradient(#ffa500, #ffffff);
+  border-radius: 3rem;
+  box-sizing: border-box;
+  text-align: center;
+  margin: -8rem auto;
+  height: 6rem;
+  width: 35rem;
+}
+.welcome h1 {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin: auto;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Source Serif Pro", serif;
+}
+.welcome h2 {
+  color: #ffa500;
+  margin-top: -0.5rem;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.1rem;
 }
