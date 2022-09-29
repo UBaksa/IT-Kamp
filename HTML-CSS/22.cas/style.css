@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  background-color: aqua;
+  /* height: 90vh; */
+  display: grid;
+  /* grid-template-columns: 150px 250px;,dve vrednosti  za 2 divapredstavljaju da imamo dve kolone  */
+  grid-template-columns: 1fr 2fr 1fr;
+  /* grid-template-columns je da se svi elementi stave u kolonu i da se ponaosob unesu vrednosti za divove kako bi bili isti,i da popune celu duzinu div-a */
+  /* takodje je ovo slicno flex grow */
+  grid-template-columns: repeat(3, 1fr);
+  /* ova trojka objasnjava na koliko kolona ce se ponovit,a ovo fr duzinu jednog boxa unutar diva */
+
+  /* grid-template-rows: 200px 150px; svaka vrednost predstavlja visinu elemenata za taj red. */
+  /* takodje moze i ovo kao za columng template ali se ovo auto preferira. */
+  /* grid-auto-rows: 200px; predstavlja visinu svih redova  */
+  grid-auto-rows: minmax(150px, auto);
+
+  /* grid-gap:x; */
+
+  grid-template-areas:
+    "header header header"
+    " section section article"
+    "main main article";
+}
+.box1 {
+  /* height: 150px; */
+  background-color: burlywood;
+  grid-area: header;
+}
+.box2 {
+  grid-area: section;
+  /* height: 150px; */
+  background-color: blue;
+}
+.box3 {
+  grid-area: article;
+  /* height: 150px; */
+  background-color: yellow;
+}
+.box4 {
+  grid-area: main;
+  /* height: 150px; */
+  background-color: rgb(57, 55, 55);
+}
+.box5 {
+  /* height: 150px; */
+  background-color: rgb(255, 0, 183);
+}
+.box6 {
+  /* height: 150px; */
+  background-color: rgb(0, 255, 47);
+}
+.box7 {
+  /* height: 150px; */
+  background-color: rgb(255, 0, 0);
+}
