@@ -169,3 +169,15 @@ header ul {
   grid-area: main;
   background-image: linear-gradient(#ffa500, white);
 }
+.box4 h2 {
+  margin-top: 0.5rem;
+  font-family: "Quicksand", sans-serif;
+  color: red;
+  text-align: center;
+  font-size: 1.3rem;
+}
+#globus {
+  margin-left: 10rem;
+  color: white;
+  font-size: 5rem;
+}
