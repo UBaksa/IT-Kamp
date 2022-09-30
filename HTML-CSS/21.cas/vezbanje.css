@@ -160,10 +160,12 @@ header ul {
   font-size: 1.3rem;
 }
 .box3 {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
   grid-area: article;
-  background-color: yellow;
+  background-image: linear-gradient(#ffa500, white);
 }
 .box4 {
   grid-area: main;
-  background-color: rgb(57, 55, 55);
+  background-image: linear-gradient(#ffa500, white);
 }
