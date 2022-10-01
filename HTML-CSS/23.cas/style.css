@@ -1,0 +1,17 @@
+body {
+  font-family: "Bitter", serif;
+}
+#jedan {
+  color: red;
+  font-size: 2rem;
+}
+#dva {
+  color: blue;
+  font-size: 1.8rem;
+}
+.container p {
+  line-height: 2rem;
+  word-spacing: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 1000;
+}
