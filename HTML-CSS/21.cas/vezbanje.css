@@ -103,8 +103,10 @@ header ul {
   list-style-type: none;
 }
 .main {
+  margin-top: -5rem;
+  margin-left: 10rem;
   border-radius: 2rem;
-  margin: auto;
+  /* margin: auto; */
   width: 80%;
   background-color: white;
   display: grid;
@@ -183,6 +185,12 @@ header ul {
   color: orange;
   margin-top: 0.5rem;
   margin-left: 5rem;
+}
+.box3 img {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  width: 20rem;
+  height: 20rem;
 }
 #globus {
   margin-left: 10rem;
