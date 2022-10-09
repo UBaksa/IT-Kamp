@@ -9,6 +9,8 @@ body {
   background-color: gainsboro;
 }
 header {
+  top: 0;
+  margin-top: -0.2rem;
   cursor: default;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -32,6 +34,24 @@ header h2 {
   color: red;
   margin-left: 5rem;
   font-family: "Ms Madi", cursive;
+}
+header input {
+  font-weight: bold;
+  font-family: "Noto Sans Buhid", sans-serif;
+  padding-left: 0.5rem;
+  background-image: linear-gradient(#ffa500, #ffffff);
+  border-radius: 1rem;
+  height: 2rem;
+  width: 8rem;
+  top: -1.7rem;
+  left: 58rem;
+  position: relative;
+}
+#lupa {
+  top: -1.5rem;
+  position: relative;
+  left: 55.5rem;
+  font-size: 1.5rem;
 }
 .loptica {
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
