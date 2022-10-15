@@ -47,5 +47,4 @@ ProsekOcena = 4.14 // i ovo je ispravno
 // 4.Koriscenjem const keyword (rezervisane reci )- 
 // const se najcesce koristi definisanje konstanti koje nece menjati vrednost.
 
-// Promenljive odnosno varijable predstavljaju kontejnere za skladistenje vrednosti
-// dfdf
+// Promenljive odnosno varijable predstavljaju kontejnere za skladistenje vrednost
