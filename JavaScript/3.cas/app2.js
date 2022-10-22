@@ -164,4 +164,31 @@ console.log(9 <= 33)
 let isSunny = false 
 
 isSunny ? console.log("Vreme je suncano" + "Ponesite naocare!" ) : 
-console.log("Vreme je kisovito" + "Ponesite kisobran") 
+console.log("Vreme je kisovito" + "Ponesite kisobran")
+
+
+// 5. Logicki operator (Logical operators);
+
+//&& - and (i) - zahteva zadovoljavanje svih uslova 
+
+let prom1 = 4
+let prom2 = 19
+let prom3 = -3
+
+prom1 > 0 && prom2>0 && prom3 > 0 
+? console.log("Sve tri promenljive su pozitivni brojevi")
+: console.log("Neke promenljive nisu pozitivne.")
+
+//5.2 || or (ili) - zahteva zadovoljavanje bar jednog od ponudjenih uslova
+
+let prva = 10
+let druga = 15
+let treca = -5
+
+prva > 0 || druga > 0 || treca > 0 
+? console.log("Nasli smo bar jednu promenljivu vecu od 0")
+: console.log("Nema promenljive")
+
+//5.3 ! - not - (okrece vrednost => iz true u false i obratno )
+
+console.log(!Boolean(prviDeo + " " + drugiDeo));
