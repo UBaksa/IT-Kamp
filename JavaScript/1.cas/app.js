@@ -16,11 +16,8 @@ console.log("Ovo je nas prvi ispis u konzoli.");
 
 // 1.string-predstavljaju niz karaktera koji je zapisan unutar navodnika obicnih ili duplih
 
-// 2.
 console.log("Ovo je neki string koji je napisan unutar duplih navodnika");
-console.log(
-  typeof "Ovo je neki string koji je napisan unutar duplih navodnika"
-);
+console.log(typeof "Ovo je neki string koji je napisan unutar duplih navodnika");
 
 // umesto ovih navodnika mogu i ove kvacice `//
 console.log(`Ovo je neki string koji je napisan unutar duplih navodnika`);
@@ -76,7 +73,7 @@ console.log(x === y)
 
 // Kada ispitujemo tip podatka za neku neprimitivnu promenljivu u JavaScriptu dobijamo Object za tip.(type of)
 
-// 1.Nizovi (Arrays)-neprimitivnitip podatka koji nam sluzi skladistenje vise vrednosti.
+// 1.Nizovi (Arrays)-neprimitivni tip podatka koji nam sluzi skladistenje vise vrednosti.
 // U JavaScriptu niz moze sadrzati elemente razlicitog tipa.
 
 niz1 = ["Mitar", "Dzenan","Haris" ,"Hamed", "Nikola"]
