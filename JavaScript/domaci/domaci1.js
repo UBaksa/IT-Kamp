@@ -38,12 +38,30 @@ for(let i=1;i<=14;i++){
         console.log(i)
     }
 }
-// 4.
-for(let i=10;i<20;i+2){
-    if((i%2 !==0)*5){
-        console.log(i)
+for(let i=6;i<14;i++){
+    if(i*2){
+        console.log(i*2)
     }
     else{
         continue
     }
 }
+// 4.
+// for(let i=10;i<20;i+=2){
+//     if(i%2 !==0){
+//         console.log(i)
+//     }
+//     else{
+//         continue
+//     }
+// }
+// 4.
+
+let suma = 0;
+
+for(let i=10;i<21;i++){
+    if(i%2 !== 0){
+    suma += i
+    }
+}
+console.log(suma)
