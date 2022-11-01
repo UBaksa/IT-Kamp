@@ -90,7 +90,7 @@ else if(broj1 ===broj2){
 
 // Domaci zadatak.
 // Preko switch naredbe:
-console.log(new Date ().getDay())
+console.log(new Date ().())getDay
 // ovo je da predstavi koji je dan ali u brojevima,ide od 0 do 6,0 je nedelja,subota 6.
 // switch (new Date(),getDay())...
 // Na osnovu vrednosti koju nam daje izraz iz switch naredbe kroz case-ove i eventualno default ispisati poruku:
