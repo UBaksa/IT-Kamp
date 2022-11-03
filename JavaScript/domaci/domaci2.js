@@ -43,22 +43,57 @@
 // Na osnovu toga koji je broj manji, iteracija se vrsi od njega do veceg broja.
 // Izracunati aritmeticku sredinu brojeva koji su deljivi sa 5.
 
-let a =+prompt("Unesite broj a.");
-let b =+prompt("Unesite broj b.");
-let brojac = 0;
-let suma = 0;
+// let a =+prompt("Unesite broj a.");
+// let b =+prompt("Unesite broj b.");
+// let brojac = 0;
+// let suma = 0;
 
-for(let i=1;(i>b && i<a) || (i>a && i<b);i++){
-    if(a > b && i%5 === 0){
-        brojac++;
-        suma +=i;
-        console.log(suma/brojac);
-    }
-    else if(b > a && i%5 === 0){
-        brojac++;
-        suma +=i;
-        console.log(suma/brojac);
-    }
-    else
-    console.log("Uneli ste neispravne koordinate");
+// for(let i=1;a<=i<=b || b<=i<=a;i++){
+// if(isNaN(a) || isNaN(b)){
+//     console.log("Morate uneti brojeve!!!");
+// }
+// else if(i%5 ===0){
+//  if(b<a){
+//     while(b<=a){
+//         console.log(b)
+//         b++;
+//     }
+// }
+// else if(b>a){
+//     while(a<=b){
+//         console.log(a)
+//         a++;
+//     }
+// }
+// brojac++;
+// suma+=i;
+// console.log(suma/brojac)
+// }
+// else if(a===b){
+//     console.log("Uneti brojevi moraju da se razlikuju!!");
+// }
+// }
+
+// 3. zadatak
+// Korisnik unosi broj iz intervala [12,16).
+// Na osnovu unetog broja, iteracija se vrsi od njega do 1(ukljucujuci).
+// Ispisati svaki broj iz iteracije, nljegov kvadrat i vrednost broja umanjenu za 25.
+
+let n=+prompt("Unesite neki broj od [12,16)");
+if(n<12 || n>16){
+    console.log("Uneli ste broj izvan domena!")
 }
+else if(n>=12 && n<16){
+    while(n>=1){
+        console.log(n);
+        console.log(n*n);
+        console.log((n-25));
+        n--;
+    }
+
+}
+
+
+
+
+
