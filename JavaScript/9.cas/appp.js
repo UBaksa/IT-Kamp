@@ -33,13 +33,29 @@
 // }
 // Na osnovu unete recenice od strane korisnika ispisati recenicu tako da svaki karakter ide jedan ispod drugog.Dok ako je neki karakter ="a",neka se ispise broj 5,a u slucaju da je karakter jednak "s",neka se ne ispise nista.
 
-let recenica = prompt("Unesite neku recenicu.");
+// let recenica = prompt("Unesite neku recenicu.");
+// const duzina = recenica.length
+// let s = new String("s");
+// let a = new String("a");
+// for(i=0;i<duzina;i++){
+//     if(i=a){
+//     a= new Number(5)
+//     console.log(recenica[i])
+//     }
+// }
+
+// kod brojeva se upravljamo prema i ,a ovde constanta,i i predstavlja index i postupamo na principu konstanta[i]
+const recenica = prompt("Unesite neku recenicu:")
 const duzina = recenica.length
-let s = new String("s");
-let a = new String("a");
-for(i=0;i<duzina;i++){
-    if(i=a){
-    a= new Number(5)
-    console.log(recenica[i])
+for(let i =0;i<duzina;i++){
+    if(recenica[i] === "a"){
+        console.log(5)
+    }
+    else if(recenica[i] === "s"){
+        continue
+    }
+    else{
+    console.log(recenica[i]);
     }
 }
+
