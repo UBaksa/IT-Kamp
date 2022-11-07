@@ -22,28 +22,6 @@ let velika = recenica0.toUpperCase();
 console.log(mala)
 console.log(velika)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Ispisati novu recenicu gde ce svaka rec pocinjati velikim slovom.
 
 // const recenica = "sledece subote cemo imati test koji predstavlja kraj prvog ciklusa.Nakon toga cemo videti ko sve nastavlja sa 2. ciklusom it campa."
