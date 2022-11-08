@@ -29,7 +29,12 @@ for(let i=0;i<duzina;i++){
     }
     else {
     continue
-    }
 }
-console.log(brojac)
+}
 
+
+// for(i=0;i<duzina;i++){
+    // if(!isNan(recenica.[i]))}
+    // brojac++
+// ovo sa uzvicnikom je metoda se okrene kontra,sa uzvicnikom ako se ucita broj bice true a ako je string false,a inace je broj false a string true.
+// 
