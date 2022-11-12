@@ -11,7 +11,7 @@ let PETAK = rec1.toUpperCase()
 
 console.log(PETAK);
 
-// toLowrCase()-metoda koja pretvara ceo string u mala slova.
+// toLowerCase()-metoda koja pretvara ceo string u mala slova.
 
 let mali = PETAK.toLowerCase();
 console.log(mali);

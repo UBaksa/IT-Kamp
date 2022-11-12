@@ -10,6 +10,7 @@ for(i=0;i<duzina;i++){
         novaRecenica+=recenica[i];
     }
 }
+// ovim operatorom se !== se ukida neki string u prevodu
 console.log(novaRecenica)
 // ovo je da se izgubi razmak ili neki karakter.
 let brojac = 0;
