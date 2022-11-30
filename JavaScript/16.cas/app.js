@@ -64,9 +64,15 @@ function resavanje(recen,recena){
     }
         return resavanje;
 }
-
+console.log(resavanje("ee cao brattttttttttttttttttttttt"))
 
 // math.ceil-ili Math.round da ga zaokruzi.
 
 // ternary operator.
 
+
+
+
+
+
+// 
