@@ -70,4 +70,37 @@ function razmak(sentence){
     let trazenje = sentence.lastIndexOf(" ")
     return trazenje;
 }
-console.log(razmak("Cao brt"))
+// console.log(razmak("Cao brt"))
+
+// 5. ispisati duzinu prve reci unetog stringa.Npr za uneto pera ima devojku rezultat je 4.podrazumeva se da uneti string.
+
+function prvaRec(parametar){
+    const parametarduzina= parametar.length
+    let brojacina = 0;
+    for(let i = 0;i<parametarduzina;i++){
+        brojacina++
+        if(parametar[i] === " "){
+            break
+        }
+    }
+    return brojacina;
+}
+
+
+// 6.Iz unetog stringa treba izdvojiti n znakova sa leve strane.Npr za string pera ima devojku i n=6 dobijase pera i ako je N vece od duzine stringa kao rezultat se dobija ceo string.
+
+function pera(recenica1,N){
+    if(N>recenica1){
+        return recenica1
+    }
+    else{
+    let skratiti = recenica1.substr(0,N)
+    return skratiti}
+}
+// console.log(pera("Cao brt",2))
+
+
+// DOMACI RAD 
+
+
+// Proveriti da li je uneti string palindrom(potpuno je isti kada se cita od pozadi.)NPR anavolimilovana je palindrom.
