@@ -1,41 +1,80 @@
 *{
-    margin-top: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 header{
     width: 100%;
-    height: 15%;
-    background-color: rgb(5, 100, 254);
+    height: 10%;
+    background-color: #0564fe;
 }
 header h1{
+    font-size: 1.7rem;
     cursor: default;
     color: rgb(253, 253, 253);
     font-weight: 300;
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
     padding-left: 1rem;
     font-family: 'Roboto', sans-serif;
 }
 header h1 i{
     color: black;
 }
-header ul{    
-    margin-left: 37rem;
+header ul{
+    margin-left: 20rem;
     display: flex;
     list-style-type: none;
 }
 header li a{
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgba(250, 250, 250, 0.582);
     text-decoration: none;
 }
 header li{
     font-size: 1.1rem;
-    margin-top: -3.5rem;
+    margin-top: -2.5rem;
     padding-left: 1.5rem;
 }
 header li:hover{
+    font-weight: bold;
     cursor: default;
     transform: scale(0.9,0.9);
     transition: 0.5s ease;
+}
+header li a:hover{
+    color: white;
+}
+header button{
+    width: 5rem;
+    height: 2rem;
+    font-family: 'Mukta Vaani', sans-serif;
+    color: rgba(250, 250, 250, 0.582);
+    background-color: #0564fe;
+    border-radius: 1rem ;
+    border: 2.5px solid rgba(250, 250, 250, 0.582);
+    margin-left: 1.5rem;
+    margin-top: -2.7rem;
+    margin-bottom: 0.1rem;
+    padding-top: -2rem;
+}
+header button:hover{
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border: 2.5px solid rgba(250, 250, 250, 0.582);
+    background-color: rgba(250, 250, 250, 0.582);
+    color: #0564fe;
+}
+header #lupa{
+    /* margin-left: -1rem; */
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+}
+header #bell{
+    margin-left: -0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
 }
