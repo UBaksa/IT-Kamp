@@ -8,6 +8,7 @@ header{
     background-color: #0564fe;
 }
 header h1{
+    letter-spacing: 0.15rem;
     font-size: 1.7rem;
     cursor: default;
     color: rgb(253, 253, 253);
@@ -18,7 +19,7 @@ header h1{
     font-family: 'Roboto', sans-serif;
 }
 header h1 i{
-    color: black;
+    color: rgb(253, 253, 253);
 }
 header ul{
     margin-left: 20rem;
@@ -43,6 +44,8 @@ header li:hover{
     transition: 0.5s ease;
 }
 header li a:hover{
+    transition: 0.5s ease;
+    border-bottom: 2px solid white;
     color: white;
 }
 header button{
