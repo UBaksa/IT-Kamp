@@ -39,4 +39,15 @@ function kombinacije(recenica1,recenica2){
     }
     return novaRecenica1   
 }
-console.log(kombinacije("PERA","sladoled"));
+// console.log(kombinacije("PERA","sladoledNa
+
+
+// Napisati funkciju koja ce sakriti email adresu od nepoznatog coveka.
+
+
+function mail(email){
+    const maild = email.length
+    let noviemail = ""
+    const donjaCrta = email.indexOf("_") !== -1 ) ? email.indexOf("_" !== -1 ) : null;
+    const tacka = email.indexOf(".") !== -1 ? email.indexOf(".") : null;
+}
