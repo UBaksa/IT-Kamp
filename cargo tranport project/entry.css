@@ -84,9 +84,10 @@ header #bell{
     display: flex;
 }
 .slika{
+    z-index: 55;
     display: flex;
     margin-top: 2rem;
-    background-color: #0564feb3;
+    background-color: #0564fe;
     width: 100%;
     height: 50%;
 }
@@ -163,6 +164,7 @@ header #bell{
     padding-left: 1rem;
 }
 .slika .text ul{
+    z-index: 50;
     line-height: 2rem;
     margin-left: 0.5rem;
     margin-top: 3rem;
@@ -186,4 +188,31 @@ height: 30%;
     padding-top: 2rem;
     font-size: 2.5rem;
     font-family: 'Dosis', sans-serif;
+}
+#mercedes{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    height: 5rem;
+    width: 20rem;
+}
+#baki{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 20rem;
+    height: 5rem;
+}
+.second .slike img{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 18rem;
+    height: 5rem;
+}
+.slika img{
+    z-index: 5;
+    top: 25rem;
+    left: 68rem;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    opacity: 0.7;   
 }
