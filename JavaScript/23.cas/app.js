@@ -74,6 +74,8 @@ function kmToM(km) {
   return km * 1000;
 }
 
+// Kada se nesto pravi preko NEW keyworda,uvek je object tipa
+
 const inchToCm = (inch) => inch * 2.54;
 
 console.log(kmToM(4.68));
