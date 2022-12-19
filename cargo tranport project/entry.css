@@ -83,9 +83,23 @@ header #bell{
     font-size: 1.5rem;
     display: flex;
 }
+.first{
+    display: flex;
+}
+.leftbar{
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    margin-top: 2rem;
+    background-color: gainsboro;
+    width: 17%;
+    height: 100%;
+}
+.leftbar p{
+    padding-bottom: 40rem;
+}
 .slika{
     border-radius: 0.7rem;
-    margin-left: 16.85rem;
+    margin-left: 3rem;
     z-index: 55;
     display: flex;
     margin-top: 2rem;
