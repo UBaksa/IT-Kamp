@@ -1,15 +1,21 @@
-// Napraviti funkciju koja ocekuje cetvorocifren broj,a vraca broj kojem su zamenjene prva i poslednja cifra,druga i treca.
+// Napraviti funkciju koja ocekuje cetvorocifren broj,a vraca broj kojem su zamenjene prva i treca cifra,poslednja i druga.
 // 4752
 // 5247
 
-function menjanje(broj1){
-    let string = broj1.toString()
-    const duzina = string.length
-    if(duzina > 4 || duzina < 4){
+function menjanje(broj){
+    if( broj > 9999|| broj < 1000){
         return "Mora cetvorocifren broj da se unese."
     }
     else{
-        let prva = string.replace(string[0],string[3]);
+        const cifraJedinice = broj % 10
+        const cifraDesetice = Math.trunc((broj%100)/10);
+        const cifraStotina  = Math.trunc((broj%1000)/100)
+        const cifraHiljada  = Math.trunc(broj/1000)
+        // const cifraJedan = cifraJedinice.toString()
+        // const cifraDeset = cifraDesetice.toString()
+        // const cifraSto = cifraStotina.toString()
+        // const cifraHiljadu = cifraHiljada.toString()
+        return cifraDesetice.toString() + cifraJedinice.toString() + cifraHiljada.toString() + cifraStotina.toString()
     }
 }
 console.log(menjanje(42))

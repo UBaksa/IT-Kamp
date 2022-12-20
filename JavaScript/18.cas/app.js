@@ -67,18 +67,18 @@ console.log(pozicija5)
 
 // Ako se pojavljuje vise puta dati string,vratiti prvog i poslednjeg pojavljivanje,ako se pojavljuje jednom,vratiti poziciju pojavljivanja,dok ako se ne pojavljuje dati string vratit poruku:"Nismo pronasli dati string."
 
-function ispitivanje(recenicaa,pozicija8,pozicija7){
-    const pozicija8 = recenica.lastIndexOf("ko osvaja")
-    const pozicija7 = recenica.indexOf("ko osvaja")
-    if(pozicija8 === -1 || pozicija7 === -1){
-        console.log("Nismo pronasli dati string.")
-    }
-    else if(pozicija8===pozicija7){
-        return "Reci `ko osvaja` se nalaze jednom u datoj recenici"
-    }
-    else if(pozicija6 !== pozicija7){
-        return "Prvo pojavljivanje reci `ko osvaja` se nalazi na " + pozicija6 + "poziciji.\nPoslednje pojavljivanje reci ko osvaja se nalazi na"+ pozicija8 + "poziciiji.";
-    }
-}
-console.log(ispitivanje("ko osvaja svetsko prvenstvo ove godine.Stvarno ko osvaja?"))
+// function ispitivanje(recenicaa,pozicija8,pozicija7){
+//     // const pozicija8 = recenica.lastIndexOf("ko osvaja")
+//     const pozicija7 = recenica.indexOf("ko osvaja")
+//     if(pozicija8 === -1 || pozicija7 === -1){
+//         console.log("Nismo pronasli dati string.")
+//     }
+//     else if(pozicija8===pozicija7){
+//         return "Reci `ko osvaja` se nalaze jednom u datoj recenici"
+//     }
+//     else if(pozicija6 !== pozicija7){
+//         return "Prvo pojavljivanje reci `ko osvaja` se nalazi na " + pozicija6 + "poziciji.\nPoslednje pojavljivanje reci ko osvaja se nalazi na"+ pozicija8 + "poziciiji.";
+//     }
+// }
+// console.log(ispitivanje("ko osvaja svetsko prvenstvo ove godine.Stvarno ko osvaja?"))
 
