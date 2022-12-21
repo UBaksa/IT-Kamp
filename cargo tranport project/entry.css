@@ -144,13 +144,14 @@ header #bell{
     box-shadow: 1px 1px 2rem blue;
     margin-top: 6rem;
     border-radius: 1rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-bottom: 8rem;
     opacity: 0.5;
     height: 50%;
     width: 50%;
 }
 .slika h1{
+    z-index: 50;
     margin-top: 1rem;
     letter-spacing: 0.15rem;
     font-size: 3rem;
@@ -166,6 +167,7 @@ header #bell{
     animation: rotate 3s ease;
 }
 .slika .text h3{
+    z-index: 50;
     font-size: 1.1rem;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
@@ -174,6 +176,7 @@ header #bell{
     color: rgba(253, 253, 253, 0.785);
 }
 .slika .text p{
+    z-index: 50;
     font-size: 1.2rem;
     font-weight: bold;
     font-family: 'Titillium Web', sans-serif;
@@ -192,10 +195,11 @@ header #bell{
     list-style: none;
 }
 .slika .text li{
+    z-index: 50;
     font-size: 1.1rem;
     font-weight: bolder;
     font-family: 'Titillium Web', sans-serif;
-    color: rgba(0, 0, 0, 0.625);
+    color: rgba(0, 0, 0, 0.55);
 }
 .second{
 margin-top: 2rem;
@@ -204,29 +208,12 @@ width: 100%;
 height: 30%;
 }
 .second h3{
+    margin-bottom: 50rem;
     color: rgba(255, 255, 255, 0.568);
     margin-left: 28rem;
     padding-top: 2rem;
     font-size: 2.5rem;
     font-family: 'Dosis', sans-serif;
-}
-#mercedes{
-    margin-top: 2rem;
-    margin-left: 1.5rem;
-    height: 5rem;
-    width: 20rem;
-}
-#baki{
-    margin-top: 2rem;
-    margin-left: 1.5rem;
-    width: 20rem;
-    height: 5rem;
-}
-.second .slike img{
-    margin-top: 2rem;
-    margin-left: 1.5rem;
-    width: 18rem;
-    height: 5rem;
 }
 .slika img{
     z-index: 5;
@@ -235,7 +222,7 @@ height: 30%;
     position: absolute;
     width: 15rem;
     height: 15rem;
-    opacity: 0.7;   
+    opacity: 0.6;   
 }
 
 /* Bootstrap taskbar */
@@ -257,4 +244,22 @@ height: 30%;
 }
 #ruta{
     padding-top: 11.3rem;
+}
+.leftbar .firma{
+    position: sticky;
+    margin-top: 2rem;
+    width: 100%;
+}
+.leftbar .firma h5{
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+.leftbar .firma p{
+    margin-left: 1rem;
+    color: #0564fe;
+}
+#baki{
+    margin-left: 4.5rem;
+    width: 7rem;
+    height: 2rem;
 }
