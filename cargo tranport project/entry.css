@@ -142,12 +142,12 @@ header #bell{
 }
 .slika video{
     box-shadow: 1px 1px 2rem blue;
-    margin-top: 6rem;
+    margin-top: 10rem;
     border-radius: 1rem;
     margin-left: 1rem;
-    margin-bottom: 8rem;
+    margin-bottom: 15rem;
     opacity: 0.5;
-    height: 50%;
+    height: 100%;
     width: 50%;
 }
 .slika h1{
@@ -167,13 +167,14 @@ header #bell{
     animation: rotate 3s ease;
 }
 .slika .text h3{
+    padding-top: 1rem;
     z-index: 50;
     font-size: 1.1rem;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     width: 25rem;
     margin-left: 3.5rem;
-    color: rgba(253, 253, 253, 0.785);
+    color: rgb(253, 253, 253);
 }
 .slika .text p{
     z-index: 50;
@@ -183,14 +184,14 @@ header #bell{
     margin-left: 2rem;
     text-align: left;
     text-align-last: left;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-left: 1rem;
 }
 .slika .text ul{
     z-index: 50;
     line-height: 2rem;
     margin-left: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 3.5rem;
     margin-bottom: 3rem;
     list-style: none;
 }
@@ -217,11 +218,11 @@ height: 30%;
 }
 .slika img{
     z-index: 5;
-    top: 25rem;
-    left: 68rem;
+    top: 37rem;
+    left: 20rem;
     position: absolute;
     width: 15rem;
-    height: 15rem;
+    height: 12rem;
     opacity: 0.6;   
 }
 
@@ -247,10 +248,13 @@ height: 30%;
 }
 .leftbar .firma{
     position: sticky;
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 100%;
 }
 .leftbar .firma h5{
+    display: flex;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
     margin-left: 1rem;
     font-size: 0.9rem;
 }
@@ -262,4 +266,8 @@ height: 30%;
     margin-left: 4.5rem;
     width: 7rem;
     height: 2rem;
+}
+#plavo{
+    margin-left: 0.2rem;
+    display: flex;
 }
