@@ -62,3 +62,44 @@ console.log(25 instanceof Array);
 console.log(automobili.length);
 
 // Za dodavanje elementa na kraju niza koristiti push()metodu.
+
+const dani = ["ponedeljak", "utorak"];
+dani.push("sreda");
+console.log(dani);
+//push() metoda nam omogucava dodavanje vise od jednog elementa na kraju niza.
+console.log(dani.push("cetvrtak", "petak")); //vraca nam koliko ce elemenata imati niz sa dodata dva elementa u ovom slucaju
+console.log(dani);
+
+const nizz = [22, 33, 44, 55];
+const duzina = nizz.duzina;
+nizz[duzina] = "Mercedes omarov";
+console.log(nizz);
+
+// Nizovi su zapravo vrsta objekata (u javascriptu) koji imaju brojevne indexe
+
+// Za pretvaranje niza ustring mozemo koristiti 2 metode:
+// 1.toString()
+// 2.join()
+
+const daniStr = dani.toString();
+console.log(daniStr);
+console.log(typeof daniStr);
+
+const danistr1 = daniStr.split(",");
+console.log(danistr1);
+
+//2.
+// Klasicni primer:
+const danistr2 = dani.join();
+console.log(danistr2);
+console.log(typeof danistr2);
+//Dobijanje stringa i stavljanje nekog znaka izmedju elemenata niza koji smo pretvorili u string.
+const danistr3 = dani.join("*");
+console.log(danistr3);
+
+// pop() metoda brise poslednji element iz niza.
+
+// dani.pop() vraca vrednost izbrisanog elementa.
+
+const suboa = dani.pop();
+console.log(dani);
