@@ -103,3 +103,5 @@ console.log(danistr3);
 
 const suboa = dani.pop();
 console.log(dani);
+
+// Iz dato niza ispisati koliko elemenata je tipa string,koliko tipa number,koliko tipa boolean,koliko elemenata je zapravo.
