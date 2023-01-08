@@ -48,7 +48,20 @@ console.log(typeof niz[5]);
 
 // za tarika.
 
-niz.splice(4, 0, "Tarik");
+// niz.splice(4, 0, "Tarik");
+// console.log(niz);
+// niz.push("Omar");
+// console.log(niz);
+
+// kad se console loga npr splice(3,3),console.log nam vraca te izbirsane elemente.
+
+// slice() metoda nam vraca deo niza:
+
+niz.slice(3, 5);
 console.log(niz);
-niz.push("Omar");
-console.log(niz);
+
+const skraceniNiz = niz.slice(3, 5);
+console.log(skraceniNiz);
+// Izostavljanjem drugog argumenta kod slice metode se uzima ostatak niza.
+const skraceniNiz2 = niz.slice(5);
+console.log(skraceniNiz2);
