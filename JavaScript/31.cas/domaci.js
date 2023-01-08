@@ -45,3 +45,13 @@ console.log(treci(nizz));
 
 const nizzz = [1, -5, 14, -23, 17, 55, -100];
 // 4. Iz nekog niza izdvojiti sve pozitivne brojeve.(Napraviti novi niz)
+function cetvrti(niz) {
+  let noviniz = [];
+  for (let broj of niz) {
+    if (broj > 0) {
+      noviniz.push(broj);
+    }
+  }
+  return noviniz;
+}
+console.log(cetvrti(nizzz));
