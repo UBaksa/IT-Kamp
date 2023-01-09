@@ -20,3 +20,11 @@ function najveci(niz) {
 }
 
 console.log(najveci(niz));
+
+// Napraviti funkciju koja vraca najmanji element niza (na 2 nacina).
+function najmanji(niz) {
+  niz.sort((a, b) => b - a);
+  return niz[niz.length - 1];
+}
+
+console.log(najmanji(niz));
