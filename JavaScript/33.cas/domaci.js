@@ -26,18 +26,21 @@ function drugi() {
   }
   return novis;
 }
-
 console.log(drugi());
 
-// const num = window.prompt();
-// const str = num.toString();
-// const result = [str[0]];
+// Domaci sto je bio od proslog casa na drugi nacin.
 
-// for (let x = 1; x < str.length; x++) {
-//   if (str[x - 1] % 2 === 0 && str[x] % 2 === 0) {
-//     result.push("-", str[x]);
-//   } else {
-//     result.push(str[x]);
-//   }
-// }
-// console.log(result.join(""));
+const niz3 = [-5, 6, 10, 45, 99, -44];
+
+function minel(niz3) {
+  let min = niz3[0];
+  for (let p of niz3) {
+    if (p < min) {
+      min = p;
+    } else {
+      continue;
+    }
+  }
+  return min;
+}
+console.log(minel(niz3));
