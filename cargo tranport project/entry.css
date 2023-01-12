@@ -1,273 +1,291 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
-header{
-    z-index: 100000;
-    position: sticky;
-    top: 0;
-    box-shadow: 0.1rem 0.1rem 0.9rem #0564fe ;
-    width: 100%;
-    height: 10%;
-    background-color: #0564fe;
+header {
+  z-index: 100000;
+  position: sticky;
+  top: 0;
+  box-shadow: 0.1rem 0.1rem 0.9rem #0564fe;
+  width: 100%;
+  height: 10%;
+  background-color: #0564fe;
 }
-header h1{
-    animation: slide 1s ;
-    letter-spacing: 0.15rem;
-    font-size: 1.7rem;
-    cursor: default;
-    color: rgb(253, 253, 253);
-    font-weight: 300;
-    padding-top: 1rem;
-    padding-bottom: 0.8rem;
-    padding-left: 1rem;
-    font-family: 'Roboto', sans-serif;
+header h1 {
+  animation: slide 1s;
+  letter-spacing: 0.15rem;
+  font-size: 1.7rem;
+  cursor: default;
+  color: rgb(253, 253, 253);
+  font-weight: 300;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1rem;
+  font-family: "Roboto", sans-serif;
 }
-header h1 i{
-    color: rgb(253, 253, 253);
+header h1 i {
+  color: rgb(253, 253, 253);
 }
-header ul{
-    margin-left: 20rem;
-    display: flex;
-    list-style-type: none;
+header ul {
+  margin-left: 20rem;
+  display: flex;
+  list-style-type: none;
 }
-header li a{
-    font-size: 1rem;
-    font-family: 'Titillium Web', sans-serif;
-    color: rgba(250, 250, 250, 0.582);
-    text-decoration: none;
+header li a {
+  font-size: 1rem;
+  font-family: "Titillium Web", sans-serif;
+  color: rgba(250, 250, 250, 0.582);
+  text-decoration: none;
 }
-header li{
-    font-size: 1.1rem;
-    margin-top: -3rem;
-    padding-left: 1.5rem;
+header li {
+  font-size: 1.1rem;
+  margin-top: -3rem;
+  padding-left: 1.5rem;
 }
-header li:hover{
-    font-weight: bold;
-    cursor: default;
-    transform: scale(0.9,0.9);
-    transition: 0.5s ease;
+header li:hover {
+  font-weight: bold;
+  cursor: default;
+  transform: scale(0.9, 0.9);
+  transition: 0.5s ease;
 }
-header li a:hover{
-    transition: 0.5s ease;
-    border-bottom: 2px solid white;
-    color: white;
+header li a:hover {
+  transition: 0.5s ease;
+  border-bottom: 2px solid white;
+  color: white;
 }
-header button{
-    width: 5rem;
-    height: 2rem;
-    font-family: 'Mukta Vaani', sans-serif;
-    color: rgba(250, 250, 250, 0.582);
-    background-color: #0564fe;
-    border-radius: 1rem ;
-    border: 2.5px solid rgba(250, 250, 250, 0.582);
-    margin-left: 1.5rem;
-    margin-top: -3rem;
-    margin-bottom: 0.1rem;
-    padding-top: -2rem;
+header button {
+  width: 5rem;
+  height: 2rem;
+  font-family: "Mukta Vaani", sans-serif;
+  color: rgba(250, 250, 250, 0.582);
+  background-color: #0564fe;
+  border-radius: 1rem;
+  border: 2.5px solid rgba(250, 250, 250, 0.582);
+  margin-left: 1.5rem;
+  margin-top: -3rem;
+  margin-bottom: 0.1rem;
+  padding-top: -2rem;
 }
-header button:hover{
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.5s ease;
-    border: 2.5px solid rgba(250, 250, 250, 0.582);
-    background-color: rgba(250, 250, 250, 0.582);
-    color: #0564fe;
+header button:hover {
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+  border: 2.5px solid rgba(250, 250, 250, 0.582);
+  background-color: rgba(250, 250, 250, 0.582);
+  color: #0564fe;
 }
-header #lupa{
-    /* margin-left: -1rem; */
-    color: white;
-    font-size: 1.5rem;
-    display: flex;
+header #lupa {
+  /* margin-left: -1rem; */
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
 }
-header #bell{
-    margin-left: -0.5rem;
-    color: white;
-    font-size: 1.5rem;
-    display: flex;
+header #bell {
+  margin-left: -0.5rem;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
 }
-.first{
-    display: flex;
+.first {
+  display: flex;
 }
-.leftbar{
-    position: sticky;
-    top: 5rem;
-    border-top-right-radius: 0.7rem;
-    border-bottom-right-radius: 0.7rem;
-    margin-top: 2rem;
-    background-color: gainsboro;
-    width: 20%;
-    height: 100%;
+.leftbar {
+  position: sticky;
+  top: 5rem;
+  border-top-right-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  margin-top: 2rem;
+  background-color: gainsboro;
+  width: 20%;
+  height: 100%;
 }
-.slika{
-    border-top-left-radius: 0.7rem;
-    border-bottom-left-radius: 0.7rem;
-    margin-left: 1rem;
-    z-index: 55;
-    display: flex;
-    margin-top: 2rem;
-    background-color: #0564fe;
-    width: 80%;
-    height: 70%;
+.slika {
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+  margin-left: z\1rem;
+  z-index: 55;
+  display: flex;
+  margin-top: 2rem;
+  background-color: #0564fe;
+  width: 80%;
+  height: 70%;
 }
 @keyframes slide {
-    from{
-        margin-left: 100%;
-        width: 300%;
-    }
-    to{
-        margin-left: 0%;
-        width: 100%;
-    }
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 @keyframes rotate {
-    0%{
-        transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(90deg);
-    }    
-    50%{
-        transform: rotate(180deg);
-    }
-    75%{
-        transform: rotate(270deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-#globe{
-    animation:  infinite 3s rotate;
+#globe {
+  animation: infinite 3s rotate;
 }
-.slika video{
-    box-shadow: 1px 1px 2rem blue;
-    margin-top: 10rem;
-    border-radius: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 15rem;
-    opacity: 0.5;
-    height: 100%;
-    width: 50%;
+.slika video {
+  box-shadow: 1px 1px 2rem blue;
+  margin-top: 10rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 15rem;
+  opacity: 0.5;
+  height: 100%;
+  width: 50%;
 }
-.slika h1{
-    z-index: 50;
-    margin-top: 1rem;
-    letter-spacing: 0.15rem;
-    font-size: 3rem;
-    cursor: default;
-    color: rgb(253, 253, 253);
-    font-weight: 300;
-    padding-top: 1rem;
-    padding-bottom: 0.8rem;
-    padding-left: 3rem;
-    font-family: 'Roboto', sans-serif;
+.slika h1 {
+  z-index: 50;
+  margin-top: 1rem;
+  letter-spacing: 0.15rem;
+  font-size: 3rem;
+  cursor: default;
+  color: rgb(253, 253, 253);
+  font-weight: 300;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  padding-left: 3rem;
+  font-family: "Roboto", sans-serif;
 }
-.slika h1 i:hover{
-    animation: rotate 3s ease;
+.slika h1 i:hover {
+  animation: rotate 3s ease;
 }
-.slika .text h3{
-    padding-top: 1rem;
-    z-index: 50;
-    font-size: 1.1rem;
-    font-family: 'Titillium Web', sans-serif;
-    text-align: center;
-    width: 25rem;
-    margin-left: 3.5rem;
-    color: rgb(253, 253, 253);
+.slika .text h3 {
+  padding-top: 1rem;
+  z-index: 50;
+  font-size: 1.1rem;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  width: 25rem;
+  margin-left: 3.5rem;
+  color: rgb(253, 253, 253);
 }
-.slika .text p{
-    z-index: 50;
-    font-size: 1.2rem;
-    font-weight: bold;
-    font-family: 'Titillium Web', sans-serif;
-    margin-left: 2rem;
-    text-align: left;
-    text-align-last: left;
-    padding-top: 3rem;
-    padding-left: 1rem;
+.slika .text p {
+  z-index: 50;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+  margin-left: 2rem;
+  text-align: left;
+  text-align-last: left;
+  padding-top: 3rem;
+  padding-left: 1rem;
 }
-.slika .text ul{
-    z-index: 50;
-    line-height: 2rem;
-    margin-left: 0.5rem;
-    margin-top: 3.5rem;
-    margin-bottom: 3rem;
-    list-style: none;
+.slika .text ul {
+  z-index: 50;
+  line-height: 2rem;
+  margin-left: 0.5rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  list-style: none;
 }
-.slika .text li{
-    z-index: 50;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    font-family: 'Titillium Web', sans-serif;
-    color: rgba(0, 0, 0, 0.55);
+.slika .text li {
+  z-index: 50;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  font-family: "Titillium Web", sans-serif;
+  color: rgba(0, 0, 0, 0.55);
 }
-.second{
-margin-top: 2rem;
-background-color: #0564fe77;
-width: 100%;
-height: 30%;
-}
-.second h3{
-    margin-bottom: 50rem;
-    color: rgba(255, 255, 255, 0.568);
-    margin-left: 28rem;
-    padding-top: 2rem;
-    font-size: 2.5rem;
-    font-family: 'Dosis', sans-serif;
-}
-.slika img{
-    z-index: 5;
-    top: 37rem;
-    left: 20rem;
-    position: absolute;
-    width: 15rem;
-    height: 12rem;
-    opacity: 0.6;   
+
+.slika img {
+  z-index: 5;
+  top: 37rem;
+  left: 20rem;
+  position: absolute;
+  width: 15rem;
+  height: 12rem;
+  opacity: 0.6;
 }
 
 /* Bootstrap taskbar */
-.tab-content p{
-    font-family: 'Dosis', sans-serif;
-    font-size: 1rem;
+.tab-content p {
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
 }
-#vozila{
-    padding-top: 5rem;
+#vozila {
+  padding-top: 5rem;
 }
-.leftbar button{
-    margin-top: 0.2rem;
+.leftbar button {
+  margin-top: 0.2rem;
 }
-#nalog{
-    padding-top: 9rem;
+#nalog {
+  padding-top: 9rem;
 }
-#pracenje{
-    padding-top: 11rem;
+#pracenje {
+  padding-top: 11rem;
 }
-#ruta{
-    padding-top: 11.3rem;
+#ruta {
+  padding-top: 11.3rem;
 }
-.leftbar .firma{
-    position: sticky;
-    margin-top: 1rem;
-    width: 100%;
+.leftbar .firma {
+  position: sticky;
+  margin-top: 1rem;
+  width: 100%;
 }
-.leftbar .firma h5{
-    display: flex;
-    font-weight: bold;
-    font-family: 'Titillium Web', sans-serif;
-    margin-left: 1rem;
-    font-size: 0.9rem;
+.leftbar .firma h5 {
+  display: flex;
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+  margin-left: 1rem;
+  font-size: 0.9rem;
 }
-.leftbar .firma p{
-    margin-left: 1rem;
-    color: #0564fe;
+.leftbar .firma p {
+  margin-left: 1rem;
+  color: #0564fe;
 }
-#baki{
-    margin-left: 4.5rem;
-    width: 7rem;
-    height: 2rem;
+#baki {
+  margin-left: 4.5rem;
+  width: 7rem;
+  height: 2rem;
 }
-#plavo{
-    margin-left: 0.2rem;
-    display: flex;
+#plavo {
+  margin-left: 0.2rem;
+  display: flex;
+}
+footer {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  height: 40%;
+  background-color: #0564fed5;
+}
+footer .left {
+  width: 50%;
+}
+footer .right {
+  padding-left: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  width: 50%;
+}
+footer .left p {
+  padding-left: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  /* text-align: center; */
+  font-weight: 700;
+  font-family: "Titillium Web", sans-serif;
+  width: 45%;
+}
+footer .right h5 {
+  padding-top: 0.5rem;
+  font-weight: bolder;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
 }
