@@ -1,4 +1,4 @@
-// JavaScript Array Iteration//
+ww; // JavaScript Array Iteration//
 
 // Array Iteration metode prolaze kroz svaki element niza.//
 
@@ -31,7 +31,7 @@ niz.forEach((student, pozicija) => {
 
 // function rotiranje(niz) {
 //   let novi = [];
-//   for (let i = 1; i < niz.length; i++) {
+//   for (let i = 0; i < niz.length; i++) {
 //     for (let j = i; j < niz.length; j++) {
 //       if (niz[i] === niz[j]) {
 //         novi.push(niz[i]);
@@ -45,7 +45,7 @@ niz.forEach((student, pozicija) => {
 
 // PITATI!
 
-// console.log(rotiranje(niz));
+console.log(rotiranje(niz));
 
 // const niz2 = [];
 
