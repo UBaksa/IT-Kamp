@@ -27,3 +27,20 @@ console.log(novi);
 // Drugi deo. Napraviti jos jedan pomocni niz koji ce iz prvog dodatnog niza uzeti parne brojeve.
 // Treci deo. U drugom pomocnom nizu umetnuti na prva dva mesta 10 i 20.
 // Funkcija na kraju treba da vrati dva napravljena pomocna niza.
+
+function drugi(par1, par2) {
+  const novi = par1.concat(par2);
+  const novi2 = [];
+  for (let i of novi) {
+    if (i % 2 === 0 && typeof i === typeof 1) {
+      novi2.push(i);
+    }
+  }
+  let novi3 = novi2.map(function preslikavanje(element) {
+    return element;
+  });
+  novi3.unshift(10, 20);
+  return [novi2, novi3];
+}
+
+console.log(drugi(DATA1, DATA2));
