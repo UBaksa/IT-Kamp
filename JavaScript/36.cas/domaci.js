@@ -59,18 +59,17 @@ console.log("Pojavljuje se " + pojavljivanje + " " + "puta");
 const stringg = "The Quick Brown Fox";
 
 function malavelika(niz) {
-  const poredjenje = niz;
   let novi = "";
   for (let i = 0; i < niz.length; i++) {
-    if (niz[i] === poredjenje[i].toLowerCase()) {
-      novi += niz[i].toUpperCase();
+    if (niz[i] === niz[i].toUpperCase()) {
+      novi += niz[i].toLowerCase();
     } else {
-      novi += niz[i].toLowerCase;
+      novi += niz[i].toUpperCase();
     }
   }
   return novi;
 }
-console.log(malavelika("The Quick Brown Fox"));
+console.log(malavelika(stringg));
 
 // 5. There are two arrays with individual values, write a JavaScript program to compute the sum of each individual index value from the given arrays. Go to the editor
 // Sample array :
