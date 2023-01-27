@@ -52,3 +52,13 @@ console.log(person2.fullname());
 
 // * U nekom objektu this ukazuje na taj objekat.
 // *U global scope this ukazuje na global object.
+
+function slova(str) {
+  let novi = [];
+  for (i = 0; i < str.length; i++) {
+    for (k = i; k < str.length; k++) {
+      subStrArr.push(str.slice(i, k + 1));
+    }
+  }
+}
+console.log(slova("dog"));
