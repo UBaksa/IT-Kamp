@@ -92,3 +92,33 @@ const radnik = {
 };
 console.log(radnik.fullname());
 console.log(radnik.adresa.getAdress());
+
+// 3. Zadatak
+const automobil = {
+  marka: "Audi",
+  model: "Q7",
+  boja: "Bela",
+  pogon: "quattro",
+  menjac: "Automatik",
+  km: 240000,
+  vlasnik: [062321552],
+  garaza: {
+    parking: "JKP Servis",
+    vikend: "od 17 free",
+    satnaKarta: "50",
+    dnevnaKarta: "200",
+    mesecnaKarta: "2000",
+    platiZa: function (from, to) {
+      const prvi = from.getTime();
+      const drugi = to.getTime();
+      const razlike = Math.abs(drugi - prvi);
+      // 1000,60,60,24
+      const brojDana = razlike / (1000 * 60 * 60 * 24);
+      return `Vasa karta ce kostati ${brojDana * this.dnevnaKarta}`;
+    },
+  },
+};
+
+console.log(
+  automobil.garaza.platiZa(new Date(2023, 0, 21), new Date(2023, 0, 26))
+);
