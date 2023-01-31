@@ -54,26 +54,41 @@
 const objekat = {
   firstName: "Bakir",
   lastname: "Ujkanovic",
-  language: "",
+  language: [],
   setLanguage: function (jezik) {
-    if (typeof jezik !== typeof "abcd") {
-      return "Morate uneti jezik!!";
-    } else if (this.language === jezik) {
-      return "Vec ste uneli jezik koji znate!";
-    } else {
-      return (this.language += "," + jezik);
+    if (typeof jezik === typeof "abcd" && !this.language.includes(jezik)) {
+      this.language.push(jezik);
     }
   },
-  setNickName: function (firstName, lastName) {
-    let nadimak = "";
-    nadimak += this.firstName.slice(0, 2);
-    nadimak += this.lastName.slice(0, 2);
-    return nadimak.toUpperCase();
+  setNickname: function () {
+    this.nickname = this.firstName.slice(0, 1);
+    this.nickname = this.nickname.toUpperCase();
+    this.nickname += this.firstName.slice(1, 2);
+    this.nickname += this.lastname.slice(0, 2);
   },
 };
 objekat.setLanguage("Engleski");
 console.log(objekat);
-objekat.setLanguage("Engleski");
+objekat.setNickname();
 console.log(objekat);
-objekat.setLanguage("Srpski");
-console.log(objekat);
+
+// 2. Zadatak
+const radnik = {
+  firstName: "Dzenan",
+  lastName: "Kosuta",
+  fullname: function () {
+    return `${radnik.firstName} ${radnik.lastName}`;
+  },
+  adresa: {
+    ulica: "Avnoja",
+    broj: "bb",
+    grad: "Novi Pazar",
+    getAdress: function () {
+      return `${radnik.fullname()} zivi u ulici ${radnik.adresa.ulica} ${
+        radnik.adresa.broj
+      } u ${radnik.adresa.grad}-u.`;
+    },
+  },
+};
+console.log(radnik.fullname());
+console.log(radnik.adresa.getAdress());
