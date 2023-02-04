@@ -19,15 +19,23 @@ const automobil = {
 // Za bilo koji objekat koji ima properties: satnaKarta, dnevnaKarta i mesecnaKarta.
 // Nakon toga je primeniti za automobil objekat i ispisati automobil nakon toga.
 
-function povecanjes(element) {
-  return (element.garaza.satnaKarta *= 1.2);
+// function povecanjes(element) {
+//   return (element.garaza.satnaKarta *= 1.2);
+// }
+// console.log(povecanjes(automobil));
+// function povecanjednevne(element) {
+//   return (element.garaza.dnevnaKarta *= 1.2);
+// }
+// console.log(povecanjednevne(automobil));
+// function povecanjemesecne(element) {
+//   return (element.garaza.mesecnaKarta *= 1.2);
+// }
+// console.log(povecanjemesecne(automobil));
+
+function povezaj() {
+  this.satnaKarta *= 1.2;
+  this.mesecnaKarta *= 1.2;
+  this.dnevnaKarta *= 1.2;
 }
-console.log(povecanjes(automobil));
-function povecanjednevne(element) {
-  return (element.garaza.dnevnaKarta *= 1.2);
-}
-console.log(povecanjednevne(automobil));
-function povecanjemesecne(element) {
-  return (element.garaza.mesecnaKarta *= 1.2);
-}
-console.log(povecanjemesecne(automobil));
+povezaj.call(automobil.garaza);
+console.log(automobil);
