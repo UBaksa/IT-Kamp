@@ -126,3 +126,22 @@ function cene(niz) {
   return niz2;
 }
 console.log(cene(products));
+
+function pomeranje(niz, index, novi) {
+  for (let i = 0; i < niz.length; i++) {
+    let pomocna = niz[index];
+    niz[index] = niz[novi];
+    niz[novi] = pomocna;
+  }
+  return niz;
+}
+console.log(pomeranje([10, 20, 30, 40, 50], 0, 2));
+
+function move(arr, pos1, pos2) {
+  const element = arr[pos1];
+  arr.splice(pos1, 1);
+  arr.splice(pos2, 0, element);
+  return arr;
+}
+
+console.log(move([10, 20, 30, 40, 50], 0, 2));
