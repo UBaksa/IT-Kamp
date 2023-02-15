@@ -1,4 +1,4 @@
-ww; // JavaScript Array Iteration//
+// JavaScript Array Iteration//
 
 // Array Iteration metode prolaze kroz svaki element niza.//
 
