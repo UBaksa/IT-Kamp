@@ -41,3 +41,9 @@ li {
   margin: auto;
   background-color: red;
 }
+
+.deletebtn {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
