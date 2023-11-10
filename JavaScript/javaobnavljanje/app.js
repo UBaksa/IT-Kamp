@@ -276,7 +276,7 @@ console.log(najmanji);
 
 // Postoje 2 nacina za ispitivanje da li je neka promenljiva niz:
 //1.Array.isArray(potencijalnoNiz)
-//2. potencijalnoNiz instanceof Array
+//2.potencijalnoNiz instanceof Array
 
 // Elementi niza mogu biti bilo koje vrednosti:
 // Date,Array,Boolean,number,string,Function...
